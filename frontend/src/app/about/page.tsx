@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Us | Vape Shop Delhi",
     description: "Delhi's trusted source for 100% genuine vapes, pods & express delivery.",
-    url: "https://vapeshopdelhi.com/about",
+    url: "https://www.vapeshop-delhi.com/about",
     siteName: "Vape Shop Delhi",
   },
 };
@@ -90,13 +90,13 @@ export default function AboutPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "About Us",
-        item: "https://vapeshopdelhi.com/about",
+        item: "https://www.vapeshop-delhi.com/about",
       },
     ],
   };
@@ -105,9 +105,9 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "VapeShop",
     name: "Vape Shop Delhi",
-    image: "https://vapeshopdelhi.com/banners/delhi-vape-banner-1.png",
-    "@id": "https://vapeshopdelhi.com/#store",
-    url: "https://vapeshopdelhi.com",
+    image: "https://www.vapeshop-delhi.com/banners/delhi-vape-banner-1.png",
+    "@id": "https://www.vapeshop-delhi.com/#store",
+    url: "https://www.vapeshop-delhi.com",
     telephone: STORE_INFO.phone,
     priceRange: "₹₹",
     address: {

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "All Vape Products & Kits | Vape Shop Delhi",
     description: "Browse 100% genuine vapes, pods & liquids with superfast 30-60 min delivery across Delhi.",
-    url: "https://vapeshopdelhi.com/products",
+    url: "https://www.vapeshop-delhi.com/products",
     siteName: "Vape Shop Delhi",
     type: "website",
   },
@@ -45,13 +45,13 @@ export default function ProductsPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Products",
-        item: "https://vapeshopdelhi.com/products",
+        item: "https://www.vapeshop-delhi.com/products",
       },
     ],
   };

@@ -131,7 +131,7 @@ export default function Footer() {
                   <span className="text-white font-extrabold ml-1">Shop</span>
                 </div>
                 <span className="text-[9px] font-bold text-orange-400/90 tracking-[0.25em] uppercase mt-1">
-                  IN DELHI • VAPESHOPDELHI.COM
+                  IN DELHI • VAPESHOP-DELHI.COM
                 </span>
               </div>
             </Link>

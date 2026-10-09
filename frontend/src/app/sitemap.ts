@@ -3,7 +3,7 @@ import { PRODUCTS, CATEGORIES } from "@/data/products";
 import { BLOG_POSTS } from "@/data/blogs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://vapeshopdelhi.com";
+  const baseUrl = "https://www.vapeshop-delhi.com";
 
   // Static Pages
   const staticPages: MetadataRoute.Sitemap = [

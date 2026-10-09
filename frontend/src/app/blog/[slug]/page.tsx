@@ -37,7 +37,7 @@ export async function generateMetadata({
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://vapeshopdelhi.com/blog/${post.slug}`,
+      url: `https://www.vapeshop-delhi.com/blog/${post.slug}`,
       siteName: "Vape Shop Delhi",
       type: "article",
     },
@@ -69,20 +69,20 @@ export default async function BlogPostPage({
     author: {
       "@type": "Organization",
       name: STORE_INFO.name,
-      url: "https://vapeshopdelhi.com",
+      url: "https://www.vapeshop-delhi.com",
     },
     publisher: {
       "@type": "Organization",
       name: STORE_INFO.name,
       logo: {
         "@type": "ImageObject",
-        url: "https://vapeshopdelhi.com/icon.png",
+        url: "https://www.vapeshop-delhi.com/icon.png",
       },
     },
-    image: `https://vapeshopdelhi.com${post.image}`,
+    image: `https://www.vapeshop-delhi.com${post.image}`,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://vapeshopdelhi.com/blog/${post.slug}`,
+      "@id": `https://www.vapeshop-delhi.com/blog/${post.slug}`,
     },
   };
 
@@ -94,19 +94,19 @@ export default async function BlogPostPage({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://vapeshopdelhi.com/blog",
+        item: "https://www.vapeshop-delhi.com/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: post.title,
-        item: `https://vapeshopdelhi.com/blog/${post.slug}`,
+        item: `https://www.vapeshop-delhi.com/blog/${post.slug}`,
       },
     ],
   };

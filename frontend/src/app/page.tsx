@@ -163,16 +163,16 @@ export default function HomePage() {
     name: "Featured Vape Devices & Disposables - Vape Shop Delhi",
     description:
       "Trending disposable vapes, refillable pod kits and e-liquids available with express doorstep delivery in Delhi.",
-    url: "https://vapeshopdelhi.com",
+    url: "https://www.vapeshop-delhi.com",
     numberOfItems: PRODUCTS.length,
     itemListElement: PRODUCTS.slice(0, 16).map((prod, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
       name: prod.name,
-      url: `https://vapeshopdelhi.com/product/${prod.slug}`,
+      url: `https://www.vapeshop-delhi.com/product/${prod.slug}`,
       image: prod.image?.startsWith("http")
         ? prod.image
-        : `https://vapeshopdelhi.com${prod.image || "/products/elfbar-gh23000-bluerazz.webp"}`,
+        : `https://www.vapeshop-delhi.com${prod.image || "/products/elfbar-gh23000-bluerazz.webp"}`,
     })),
   };
 

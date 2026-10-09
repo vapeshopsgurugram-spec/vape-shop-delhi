@@ -101,7 +101,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${name} in Delhi | Vape Shop Delhi`,
       description: `Buy authentic ${name} in Delhi with 30-60 min express doorstep delivery.`,
-      url: `https://vapeshopdelhi.com/category/${slug}`,
+      url: `https://www.vapeshop-delhi.com/category/${slug}`,
       siteName: "Vape Shop Delhi",
       type: "website",
     },
@@ -126,16 +126,16 @@ export default async function CategoryPage({
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: `${currentCat.name} - Vape Shop Delhi`,
-    url: `https://vapeshopdelhi.com/category/${currentCat.slug}`,
+    url: `https://www.vapeshop-delhi.com/category/${currentCat.slug}`,
     numberOfItems: displayProducts.length,
     itemListElement: displayProducts.slice(0, 12).map((prod, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
-      url: `https://vapeshopdelhi.com/product/${prod.slug}`,
+      url: `https://www.vapeshop-delhi.com/product/${prod.slug}`,
       name: prod.name,
       image: prod.image?.startsWith("http")
         ? prod.image
-        : `https://vapeshopdelhi.com${prod.image}`,
+        : `https://www.vapeshop-delhi.com${prod.image}`,
     })),
   };
 
@@ -147,19 +147,19 @@ export default async function CategoryPage({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Categories",
-        item: "https://vapeshopdelhi.com/products",
+        item: "https://www.vapeshop-delhi.com/products",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: currentCat.name,
-        item: `https://vapeshopdelhi.com/category/${currentCat.slug}`,
+        item: `https://www.vapeshop-delhi.com/category/${currentCat.slug}`,
       },
     ],
   };

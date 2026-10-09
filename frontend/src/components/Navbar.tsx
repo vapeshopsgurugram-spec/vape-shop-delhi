@@ -65,10 +65,10 @@ export default function Navbar() {
     "@type": "SiteNavigationElement",
     name: ["Home", "Products", "About", "Contact"],
     url: [
-      "https://vapeshopdelhi.com",
-      "https://vapeshopdelhi.com/products",
-      "https://vapeshopdelhi.com/about",
-      "https://vapeshopdelhi.com/contact",
+      "https://www.vapeshop-delhi.com",
+      "https://www.vapeshop-delhi.com/products",
+      "https://www.vapeshop-delhi.com/about",
+      "https://www.vapeshop-delhi.com/contact",
     ],
   };
 

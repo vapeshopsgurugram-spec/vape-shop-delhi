@@ -71,7 +71,7 @@ export default async function ProductDetailPage({
 
   const absoluteImageUrl = product.image?.startsWith("http")
     ? product.image
-    : `https://vapeshopdelhi.com${product.image || "/products/ebcreate-bc5000-disposable-pod-device.webp"}`;
+    : `https://www.vapeshop-delhi.com${product.image || "/products/ebcreate-bc5000-disposable-pod-device.webp"}`;
 
   // Schema.org JSON-LD for Google Rich Results
   const productSchema = {
@@ -88,7 +88,7 @@ export default async function ProductDetailPage({
     },
     offers: {
       "@type": "Offer",
-      url: `https://vapeshopdelhi.com/product/${product.slug}`,
+      url: `https://www.vapeshop-delhi.com/product/${product.slug}`,
       priceCurrency: "INR",
       price: product.price,
       priceValidUntil: "2027-12-31",
@@ -163,19 +163,19 @@ export default async function ProductDetailPage({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Products",
-        item: "https://vapeshopdelhi.com/products",
+        item: "https://www.vapeshop-delhi.com/products",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: product.name,
-        item: `https://vapeshopdelhi.com/product/${product.slug}`,
+        item: `https://www.vapeshop-delhi.com/product/${product.slug}`,
       },
     ],
   };

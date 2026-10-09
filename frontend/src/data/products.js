@@ -7,11 +7,11 @@ export const STORE_INFO = {
   name: "Vape Shop Delhi",
   brandName: "Vape Shop Delhi",
   cityTag: "IN DELHI",
-  domain: "vapeshopdelhi.com",
+  domain: "www.vapeshop-delhi.com",
   phone: "+91 89509 53934",
   whatsappNumber: "918950953934",
   whatsappUrl: "https://wa.me/918950953934",
-  email: "orders@vapeshopdelhi.com",
+  email: "orders@vapeshop-delhi.com",
   city: "Delhi",
   address: "Connaught Place / South Extension, New Delhi, Delhi 110001",
 };

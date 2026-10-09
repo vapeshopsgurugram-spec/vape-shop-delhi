@@ -73,7 +73,7 @@ export default function ProductDetailClient({
     setTimeout(() => setAddedAnimation(false), 2000);
   };
 
-  const productUrl = `https://vapeshopdelhi.com/product/${product.slug}`;
+  const productUrl = `https://www.vapeshop-delhi.com/product/${product.slug}`;
   const whatsappMessage = encodeURIComponent(
     `*NEW ORDER - VAPE SHOP DELHI*\n` +
     `━━━━━━━━━━━━━━━━━━━━\n` +

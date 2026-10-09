@@ -126,7 +126,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Vape Shop Delhi" }],
   creator: "Vape Shop Delhi",
   publisher: "Vape Shop Delhi",
-  metadataBase: new URL("https://vapeshopdelhi.com"),
+  metadataBase: new URL("https://www.vapeshop-delhi.com"),
   alternates: {
     canonical: "/",
   },
@@ -140,7 +140,7 @@ export const metadata: Metadata = {
     title: "Vape Shop In Delhi | 30-60 Min Express Doorstep Delivery Across Delhi",
     description:
       "Looking for a trusted vape shop in Delhi? Shop authentic disposable vapes, pod kits & imported e-liquids with 30-60 min express delivery & COD in Delhi NCR.",
-    url: "https://vapeshopdelhi.com",
+    url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop In Delhi",
     locale: "en_IN",
     type: "website",
@@ -199,7 +199,7 @@ export default function RootLayout({
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": ["Store", "VapeShop"],
-    "@id": "https://vapeshopdelhi.com/#store",
+    "@id": "https://www.vapeshop-delhi.com/#store",
     name: "Vape Shop Delhi",
     alternateName: [
       "Vape Shop in Delhi",
@@ -210,9 +210,9 @@ export default function RootLayout({
       "Vape Shop Connaught Place",
       "Vape Shop Delhi NCR",
     ],
-    url: "https://vapeshopdelhi.com",
-    logo: "https://vapeshopdelhi.com/vape-shop-delhi-logo.png",
-    image: "https://vapeshopdelhi.com/banners/delhi-vape-banner-1.png",
+    url: "https://www.vapeshop-delhi.com",
+    logo: "https://www.vapeshop-delhi.com/vape-shop-delhi-logo.png",
+    image: "https://www.vapeshop-delhi.com/banners/delhi-vape-banner-1.png",
     description:
       "Delhi's #1 premier vape shop for 100% authentic disposable vapes, refillable pod kits, coils & imported nic salts. 30-60 min express delivery across South Delhi, Central Delhi, West Delhi, North Delhi, East Delhi, and Aerocity with COD & UPI.",
     telephone: "+91 89509 53934",
@@ -269,19 +269,19 @@ export default function RootLayout({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://vapeshopdelhi.com/#website",
-    url: "https://vapeshopdelhi.com",
+    "@id": "https://www.vapeshop-delhi.com/#website",
+    url: "https://www.vapeshop-delhi.com",
     name: "Vape Shop Delhi",
     description:
       "Premier Vape Shop in Delhi & Delhi NCR - 30-60 min express delivery with Cash on Delivery & UPI.",
     publisher: {
-      "@id": "https://vapeshopdelhi.com/#store",
+      "@id": "https://www.vapeshop-delhi.com/#store",
     },
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://vapeshopdelhi.com/search?q={search_term_string}",
+        urlTemplate: "https://www.vapeshop-delhi.com/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },

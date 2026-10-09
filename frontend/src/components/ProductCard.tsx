@@ -37,7 +37,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     setTimeout(() => setAddedAnimation(false), 1200);
   };
 
-  const productUrl = `https://vapeshopdelhi.com/product/${product.slug || product.id}`;
+  const productUrl = `https://www.vapeshop-delhi.com/product/${product.slug || product.id}`;
   const whatsappMessage = encodeURIComponent(
     `Hi Vape Shop Delhi! I want to order:\n\n` +
       `📦 *${product.name}*\n` +

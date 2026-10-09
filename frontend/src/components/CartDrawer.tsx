@@ -40,7 +40,7 @@ export default function CartDrawer() {
     let itemsList = "";
     cart.forEach((item, index) => {
       const productSlug = item.slug || item.id;
-      itemsList += `${index + 1}. *${item.name}*\n   Flavor: ${item.flavor || "Default"} | Qty: ${item.quantity} | ₹${(item.price * item.quantity).toLocaleString("en-IN")}\n   Link: https://vapeshopdelhi.com/product/${productSlug}\n\n`;
+      itemsList += `${index + 1}. *${item.name}*\n   Flavor: ${item.flavor || "Default"} | Qty: ${item.quantity} | ₹${(item.price * item.quantity).toLocaleString("en-IN")}\n   Link: https://www.vapeshop-delhi.com/product/${productSlug}\n\n`;
     });
 
     const message =

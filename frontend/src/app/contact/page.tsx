@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact & Fast Delivery | " + STORE_INFO.name,
     description: "Instant 30-60 min doorstep vape delivery across Delhi & Delhi NCR. WhatsApp +91 89509 53934.",
-    url: "https://vapeshopdelhi.com/contact",
+    url: "https://www.vapeshop-delhi.com/contact",
     siteName: "Vape Shop Delhi",
   },
 };
@@ -34,13 +34,13 @@ export default function ContactPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact",
-        item: "https://vapeshopdelhi.com/contact",
+        item: "https://www.vapeshop-delhi.com/contact",
       },
     ],
   };
@@ -50,12 +50,12 @@ export default function ContactPage() {
     "@type": "ContactPage",
     name: "Contact Vape Shop Delhi",
     description: "Contact Vape Shop Delhi for doorstep vape delivery across Delhi and Delhi NCR.",
-    url: "https://vapeshopdelhi.com/contact",
+    url: "https://www.vapeshop-delhi.com/contact",
     mainEntity: {
       "@type": "VapeShop",
       name: "Vape Shop Delhi",
       telephone: STORE_INFO.phone,
-      url: "https://vapeshopdelhi.com",
+      url: "https://www.vapeshop-delhi.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Connaught Place / South Extension",

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vape Guides & Insights | Vape Shop Delhi",
     description: "Expert reviews, authenticity guides, and express delivery details across Delhi & Delhi NCR.",
-    url: "https://vapeshopdelhi.com/blog",
+    url: "https://www.vapeshop-delhi.com/blog",
     siteName: "Vape Shop Delhi",
     type: "website",
     images: ["/banners/delhi-vape-banner-1.png"],
@@ -41,13 +41,13 @@ export default function BlogIndexPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://vapeshopdelhi.com",
+        item: "https://www.vapeshop-delhi.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog & Guides",
-        item: "https://vapeshopdelhi.com/blog",
+        item: "https://www.vapeshop-delhi.com/blog",
       },
     ],
   };

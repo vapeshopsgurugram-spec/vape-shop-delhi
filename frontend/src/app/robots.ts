@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://vapeshopdelhi.com/sitemap.xml",
+    sitemap: "https://www.vapeshop-delhi.com/sitemap.xml",
   };
 }
