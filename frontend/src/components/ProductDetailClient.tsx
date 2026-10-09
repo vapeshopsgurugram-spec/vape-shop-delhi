@@ -515,7 +515,7 @@ export default function ProductDetailClient({
                   className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50/80 border border-slate-100 text-xs"
                 >
                   <span className="font-medium text-slate-500">{key}</span>
-                  <span className="font-semibold text-slate-800">{val}</span>
+                  <span className="font-semibold text-slate-800">{String(val)}</span>
                 </div>
               ))}
             </div>
