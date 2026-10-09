@@ -8,11 +8,11 @@ import { CartProvider } from "@/context/CartContext";
 
 export const metadata: Metadata = {
   title: {
-    default: "Vape Shop in Delhi | #1 Online Vape Store • 30-60 Min Express Delivery Across Delhi",
-    template: "%s | Vape Shop in Delhi",
+    default: "Vape Shop Delhi – Top Online Vape Store in Delhi",
+    template: "%s | Vape Shop Delhi",
   },
   description:
-    "Delhi's #1 official vape store. Buy 100% authentic disposable vapes, refillable pod kits & premium nic salts. Fast 30-60 min express doorstep courier with Cash on Delivery (COD) across all Delhi localities.",
+    "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier with Cash on Delivery (COD) across Delhi NCR.",
   keywords: [
     // 1. Delhi Core Commercial Keywords
     "Vape Shop Delhi",
@@ -137,11 +137,11 @@ export const metadata: Metadata = {
     "ICBM": "28.6139, 77.2090",
   },
   openGraph: {
-    title: "Vape Shop In Delhi | 30-60 Min Express Doorstep Delivery Across Delhi",
+    title: "Vape Shop Delhi – Top Online Vape Store in Delhi",
     description:
-      "Looking for a trusted vape shop in Delhi? Shop authentic disposable vapes, pod kits & imported e-liquids with 30-60 min express delivery & COD in Delhi NCR.",
+      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier with Cash on Delivery (COD) across Delhi NCR.",
     url: "https://www.vapeshop-delhi.com",
-    siteName: "Vape Shop In Delhi",
+    siteName: "Vape Shop Delhi",
     locale: "en_IN",
     type: "website",
     images: [
@@ -149,15 +149,15 @@ export const metadata: Metadata = {
         url: "/banners/delhi-vape-banner-1.png",
         width: 1953,
         height: 805,
-        alt: "Vape Shop Delhi - Premium Vapes & Pods Express Delivery",
+        alt: "Vape Shop Delhi - Top Online Vape Store in Delhi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vape Shop In Delhi | 30-60 Min Express Delivery Delhi NCR",
+    title: "Vape Shop Delhi – Top Online Vape Store in Delhi",
     description:
-      "Looking for a trusted vape shop in Delhi? Shop authentic disposable vapes, pod kits & imported e-liquids with 30-60 min express delivery & COD in Delhi NCR.",
+      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier with Cash on Delivery (COD) across Delhi NCR.",
     images: ["/banners/delhi-vape-banner-1.png"],
   },
   robots: {
