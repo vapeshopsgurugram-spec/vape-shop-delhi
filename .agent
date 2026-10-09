@@ -1,0 +1,13 @@
+# VapeShops Gurgaon - Agent Architecture & Rules
+
+## 1. Project Structure
+The project is strictly separated into:
+- `/frontend`: Next.js App Router (15+), TypeScript, Tailwind CSS
+- `/backend`: Node.js / Express REST API (`server.js`, `routes/products.js`)
+- `/data/products.js`: Central Product Data File (Single Source of Truth where all product, category, and store data resides and is fetched from)
+
+## 2. Core Directives
+- **Data Source**: Every product detail, category list, price, and specs must come directly from `/data/products.js`.
+- **Frontend**: Clean Next.js App Router with Tailwind CSS for mobile-first, ultra-fast UI.
+- **Backend**: Express API server serving endpoints (`/api/products`, `/api/products/:slug`, `/api/products/meta/*`).
+- **SEO Priority**: Technical SEO for Google Search (Fast TTFB, Structured Data, Meta Tags, Mobile-first responsive design).
