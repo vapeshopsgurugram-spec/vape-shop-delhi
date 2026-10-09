@@ -1,10 +1,25 @@
 import type { Metadata, Viewport } from "next";
+import { Outfit, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import { CartProvider } from "@/context/CartContext";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800", "900"],
+  variable: "--font-outfit",
+  display: "swap",
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-plus-jakarta-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -288,20 +303,16 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="h-full bg-white" suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`h-full bg-white ${plusJakartaSans.variable} ${outfit.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         {/* Favicon & Web App Icons */}
         <link rel="icon" href="/vape-shop-delhi-logo.png" type="image/png" />
         <link rel="shortcut icon" href="/vape-shop-delhi-logo.png" />
         <link rel="apple-touch-icon" href="/vape-shop-delhi-logo.png" />
-
-        {/* Preconnect for Google Fonts & Core Web Vitals Optimization */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body
         className="min-h-full flex flex-col bg-white text-slate-900 antialiased selection:bg-orange-100 selection:text-orange-700 font-sans"

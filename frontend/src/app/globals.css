@@ -9,8 +9,8 @@
     --primary-light: #fff7ed;
     --primary-border: #fed7aa;
     --accent: #f59e0b;
-    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --font-heading: 'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif;
+    --font-sans: var(--font-plus-jakarta-sans), 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-heading: var(--font-outfit), 'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif;
   }
 
   ::selection {
