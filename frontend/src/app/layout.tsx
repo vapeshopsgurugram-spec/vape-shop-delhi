@@ -244,7 +244,7 @@ export default function RootLayout({
     image: "https://www.vapeshop-delhi.com/banners/delhi-vape-banner-1.png",
     description:
       "Delhi's #1 premier vape shop for 100% authentic disposable vapes, refillable pod kits, coils & imported nic salts. 30-60 min express delivery across South Delhi, Central Delhi, West Delhi, North Delhi, East Delhi, and Aerocity with COD & UPI.",
-    telephone: "+91 89509 53934",
+    telephone: "+91 88130 92161",
     priceRange: "₹₹",
     paymentAccepted: ["Cash on Delivery", "UPI", "Google Pay", "PhonePe", "Paytm"],
     currenciesAccepted: "INR",

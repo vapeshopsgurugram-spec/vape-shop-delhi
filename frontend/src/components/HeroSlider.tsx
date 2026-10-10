@@ -208,7 +208,7 @@ export default function HeroSlider() {
 
           {/* 2. Delhi Helpline (Call) */}
           <a
-            href="tel:918950953934"
+            href={`tel:${STORE_INFO.phone}`}
             aria-label="Call Delhi Helpline"
             className="group relative flex items-center justify-center sm:justify-between gap-3 p-2.5 sm:p-4 rounded-[20px] sm:rounded-[28px] bg-white border border-orange-200/80 shadow-[0_6px_20px_-4px_rgba(255,107,0,0.12)] hover:shadow-[0_16px_36px_-6px_rgba(255,107,0,0.22)] hover:border-orange-300 hover:-translate-y-0.5 sm:hover:-translate-y-1 active:scale-95 transition-all duration-300 overflow-hidden cursor-pointer"
           >
@@ -236,7 +236,7 @@ export default function HeroSlider() {
                 DELHI HELPLINE
               </span>
               <h3 className="text-[14px] sm:text-[16px] font-bold text-slate-900 leading-tight truncate group-hover:text-orange-600 transition-colors">
-                Call 918950953934
+                Call 8813092161
               </h3>
               <p className="text-[11px] sm:text-[12px] font-medium text-slate-400 truncate mt-0.5">
                 Mon - Sat, 10AM - 8PM

@@ -138,7 +138,7 @@ export default function AboutPage() {
       closes: "23:30",
     },
     sameAs: [
-      "https://wa.me/918950953934",
+      STORE_INFO.whatsappUrl,
     ],
   };
 

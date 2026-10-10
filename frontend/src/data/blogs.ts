@@ -47,7 +47,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Fastest Doorstep Vape Courier Across Delhi",
         paragraphs: [
           "Need an authentic disposable vape, replacement pod, or nicotine salt e-liquid delivered urgently anywhere in Delhi? Whether you are working late in Connaught Place, relaxing in South Delhi (Saket, Hauz Khas, Greater Kailash), staying at an Aerocity transit hotel, or residing in West Delhi (Dwarka, Punjabi Bagh), Vape Shop Delhi provides rapid 30 to 60-minute express courier delivery right to your door.",
-          "Unlike generic e-commerce sites that ship via standard national couriers taking 3 to 5 business days, we operate local dispatch stations across Delhi. The moment you place an order online or via WhatsApp (+91 89509 53934), a dedicated rider is assigned to hand-deliver your order in temperature-controlled, tamper-evident packaging.",
+          "Unlike generic e-commerce sites that ship via standard national couriers taking 3 to 5 business days, we operate local dispatch stations across Delhi. The moment you place an order online or via WhatsApp (+91 88130 92161), a dedicated rider is assigned to hand-deliver your order in temperature-controlled, tamper-evident packaging.",
         ],
       },
       {

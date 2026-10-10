@@ -6,7 +6,7 @@ import { STORE_INFO } from "@/data/products";
 export const metadata: Metadata = {
   title: "Contact Us & Express Delivery | " + STORE_INFO.name,
   description:
-    "Order authentic disposable vapes and pods online in Delhi. Call or WhatsApp +91 89509 53934 for 30-60 minute express delivery across Delhi NCR.",
+    `Order authentic disposable vapes and pods online in Delhi. Call or WhatsApp ${STORE_INFO.phone} for 30-60 minute express delivery across Delhi NCR.`,
   keywords: [
     "Contact Vape Shop Delhi",
     "WhatsApp vape order Delhi",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Contact & Fast Delivery | " + STORE_INFO.name,
-    description: "Instant 30-60 min doorstep vape delivery across Delhi & Delhi NCR. WhatsApp +91 89509 53934.",
+    description: `Instant 30-60 min doorstep vape delivery across Delhi & Delhi NCR. WhatsApp ${STORE_INFO.phone}.`,
     url: "https://www.vapeshop-delhi.com/contact",
     siteName: "Vape Shop Delhi",
   },
