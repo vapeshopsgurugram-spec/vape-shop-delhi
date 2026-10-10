@@ -124,7 +124,7 @@ export default function Navbar() {
                     </span>
                     <span className="h-1 w-1 rounded-full bg-orange-400" />
                     <span className="text-[7px] sm:text-[8px] font-bold text-slate-400 uppercase tracking-wider">
-                      EXPRESS
+                      STORE
                     </span>
                   </div>
                 </div>

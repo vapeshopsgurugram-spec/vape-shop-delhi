@@ -18,8 +18,19 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const POPULAR_SEARCHES = [
+    // 10 Core Delhi Search Keywords (Targeted for Top Google Ranking)
+    { text: "Vape Shop Delhi", href: "/products" },
     { text: "Vape Shop in Delhi", href: "/products" },
+    { text: "Best Vape Shop Delhi", href: "/products" },
+    { text: "Best Vape Shop in Delhi", href: "/products" },
+    { text: "Vape Shop Near Me", href: "/contact" },
     { text: "Vape Delivery Delhi", href: "/products" },
+    { text: "Vape Shop South Delhi", href: "/products" },
+    { text: "Vape Shop West Delhi", href: "/products" },
+    { text: "Disposable Vape Delhi", href: "/category/disposable-vapes" },
+    { text: "Vape Price in Delhi", href: "/products" },
+
+    // Micro-Locality & Popular Model Quick Links
     { text: "South Delhi Vape Store", href: "/products" },
     { text: "Vape Store Near Me Delhi", href: "/products" },
     { text: "Disposable Vapes Delhi", href: "/category/disposable-vapes" },
@@ -37,7 +48,7 @@ export default function Footer() {
     { text: "Dwarka & West Delhi Vape Delivery", href: "/products" },
     { text: "Rohini & Pitampura Vape Store", href: "/products" },
     { text: "Mayur Vihar & East Delhi Vape Delivery", href: "/products" },
-    { text: "Delhi Express 30-Min Delivery", href: "/products" },
+    { text: "Online Vape Shop Delhi", href: "/products" },
     { text: "Nic Salt E-Liquids 20mg / 50mg", href: "/category/e-liquids" },
     { text: "Vape Replacement Pods & Coils", href: "/category/coils-pods" },
     { text: "Authentic Vape Shop Delhi", href: "/about" },
@@ -294,7 +305,14 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 4. Bottom Bar: Copyright & Navigation */}
+        {/* 4. SEO Topical Delhi Authority */}
+        <div className="py-4 border-b border-slate-800/60 text-[11px] text-slate-500 leading-relaxed">
+          <p>
+            <strong className="text-slate-400 font-semibold">Vape Shop Delhi:</strong> Delhi&apos;s #1 premier online vape store for all top searches including <span className="text-slate-400">Vape Shop Delhi</span>, <span className="text-slate-400">Vape Shop in Delhi</span>, <span className="text-slate-400">Best Vape Shop Delhi</span>, <span className="text-slate-400">Best Vape Shop in Delhi</span>, <span className="text-slate-400">Vape Shop Near Me</span>, <span className="text-slate-400">Vape Delivery Delhi</span>, <span className="text-slate-400">Vape Shop South Delhi</span>, <span className="text-slate-400">Vape Shop West Delhi</span>, <span className="text-slate-400">Disposable Vape Delhi</span>, and authentic <span className="text-slate-400">Vape Price in Delhi</span>. Guaranteed original sealed devices with 30–60 min instant courier dispatch across all Delhi NCR pin codes.
+          </p>
+        </div>
+
+        {/* 5. Bottom Bar: Copyright & Navigation */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
             © {currentYear} {STORE_INFO.name} ({STORE_INFO.domain}). All rights reserved.

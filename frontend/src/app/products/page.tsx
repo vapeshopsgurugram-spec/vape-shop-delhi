@@ -10,6 +10,16 @@ export const metadata: Metadata = {
   description:
     "Explore our complete range of 100% authentic disposable vapes, refillable pod kits, nicotine salts & coils in Delhi. 30-60 min express delivery with Cash on Delivery (COD).",
   keywords: [
+    "Vape Shop Delhi",
+    "Vape Shop in Delhi",
+    "Best Vape Shop Delhi",
+    "Best Vape Shop in Delhi",
+    "Vape Shop Near Me",
+    "Vape Delivery Delhi",
+    "Vape Shop South Delhi",
+    "Vape Shop West Delhi",
+    "Disposable Vape Delhi",
+    "Vape Price in Delhi",
     "All Vape Products Delhi",
     "Buy Vapes Online Delhi",
     "Disposable Vapes Delhi",

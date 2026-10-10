@@ -28,8 +28,22 @@ export default async function SearchPage({
   const { q } = await searchParams;
   const query = (q || "").trim().toLowerCase();
 
+  const CORE_SEARCH_TAGS = [
+    { label: "Vape Shop Delhi", q: "Vape Shop Delhi" },
+    { label: "Vape Shop in Delhi", q: "Vape Shop in Delhi" },
+    { label: "Best Vape Shop Delhi", q: "Best Vape Shop Delhi" },
+    { label: "Best Vape Shop in Delhi", q: "Best Vape Shop in Delhi" },
+    { label: "Vape Shop Near Me", q: "Vape Shop Near Me" },
+    { label: "Vape Delivery Delhi", q: "Vape Delivery Delhi" },
+    { label: "Vape Shop South Delhi", q: "Vape Shop South Delhi" },
+    { label: "Vape Shop West Delhi", q: "Vape Shop West Delhi" },
+    { label: "Disposable Vape Delhi", q: "Disposable Vape Delhi" },
+    { label: "Vape Price in Delhi", q: "Vape Price in Delhi" },
+  ];
+
   const results = query
     ? PRODUCTS.filter((p) => {
+        // Direct exact or substring match
         const nameMatch = p.name.toLowerCase().includes(query);
         const brandMatch = p.brand.toLowerCase().includes(query);
         const catMatch = p.category.toLowerCase().includes(query);
@@ -37,7 +51,38 @@ export default async function SearchPage({
         const flavorMatch = (p.flavors || []).some((f: string) =>
           f.toLowerCase().includes(query)
         );
-        return nameMatch || brandMatch || catMatch || descMatch || flavorMatch;
+        if (nameMatch || brandMatch || catMatch || descMatch || flavorMatch) {
+          return true;
+        }
+
+        // Broad intent keyword matching for Delhi vape shoppers
+        const words = query.split(/\s+/).filter(Boolean);
+        const hasDisposableIntent = words.includes("disposable");
+        const hasLiquidIntent = words.includes("liquid") || words.includes("salts") || words.includes("juice");
+        const hasPodIntent = words.includes("pod") || words.includes("coil") || words.includes("kit");
+
+        if (hasDisposableIntent && (p.category === "disposable-vapes" || p.category === "disposables")) return true;
+        if (hasLiquidIntent && (p.category === "e-liquids" || p.category === "liquids")) return true;
+        if (hasPodIntent && (p.category === "pod-systems" || p.category === "coils-pods")) return true;
+
+        // If the query is an overall store/delivery/price search like "vape shop delhi", "best vape shop in delhi", "vape delivery delhi", "vape price in delhi"
+        const isGeneralDelhiQuery = [
+          "vape shop delhi",
+          "vape shop in delhi",
+          "best vape shop delhi",
+          "best vape shop in delhi",
+          "vape shop near me",
+          "vape delivery delhi",
+          "vape shop south delhi",
+          "vape shop west delhi",
+          "vape price in delhi",
+          "vape delhi",
+          "delhi vape",
+        ].some((k) => query.includes(k) || k.includes(query));
+
+        if (isGeneralDelhiQuery) return true;
+
+        return false;
       })
     : PRODUCTS;
 
@@ -59,19 +104,43 @@ export default async function SearchPage({
           </span>
         </nav>
 
-        {/* Header */}
-        <div className="border-b border-orange-100 pb-6">
-          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-orange-600 uppercase tracking-wider mb-1">
-            <Sparkles className="w-4 h-4" /> Search Catalog
+        {/* Header & Quick Keyword Pills */}
+        <div className="border-b border-orange-100 pb-6 space-y-4">
+          <div>
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-orange-600 uppercase tracking-wider mb-1">
+              <Sparkles className="w-4 h-4" /> Search Catalog
+            </div>
+            <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+              {query ? `Results for "${query}"` : "All Products"}
+            </h1>
+            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+              {results.length > 0
+                ? `Found ${results.length} authentic product${results.length > 1 ? "s" : ""} available for express 30–60 min delivery in Delhi.`
+                : `No specific items matching "${query}". Showing popular Delhi recommendations below.`}
+            </p>
           </div>
-          <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            {query ? `Results for "${query}"` : "All Products"}
-          </h1>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1">
-            {results.length > 0
-              ? `Found ${results.length} authentic product${results.length > 1 ? "s" : ""} available for express delivery in Delhi.`
-              : `No products matching "${query}" found. Showing popular recommendations below.`}
-          </p>
+
+          {/* Core Delhi Search Keywords */}
+          <div className="space-y-1.5 pt-1">
+            <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">
+              Popular Delhi Searches:
+            </span>
+            <div className="flex flex-wrap gap-1.5">
+              {CORE_SEARCH_TAGS.map((tag) => (
+                <Link
+                  key={tag.label}
+                  href={`/search?q=${encodeURIComponent(tag.q)}`}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition-all ${
+                    query === tag.q.toLowerCase()
+                      ? "bg-orange-600 text-white border-orange-600 shadow-sm"
+                      : "bg-white text-slate-700 border-slate-200 hover:border-orange-400 hover:text-orange-600"
+                  }`}
+                >
+                  {tag.label}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Results Grid */}

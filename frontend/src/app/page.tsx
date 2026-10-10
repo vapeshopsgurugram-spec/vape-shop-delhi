@@ -108,6 +108,30 @@ const DEVICE_COMPARISON = [
 
 const FAQS = [
   {
+    q: "What should I know before searching for a vape shop in Delhi?",
+    a: "Before visiting a vape store or looking for electronic cigarette products in Delhi, check the applicable Indian laws governing electronic cigarettes.",
+  },
+  {
+    q: "Are vape shops legal in Delhi?",
+    a: "India's Prohibition of Electronic Cigarettes Act, 2019 prohibits the sale and distribution of electronic cigarettes covered by the Act.",
+  },
+  {
+    q: "Are disposable vapes prohibited in Delhi?",
+    a: "Disposable vaping devices that meet the Act's definition of electronic cigarettes are covered by the prohibition.",
+  },
+  {
+    q: "Are vape delivery services available legally in Delhi?",
+    a: "The Act prohibits the sale, distribution, and advertising of covered electronic cigarettes. Check the official legislation before relying on online listings or delivery claims.",
+  },
+  {
+    q: "What are the rules for vape products in South Delhi and North Delhi?",
+    a: "The central electronic-cigarette prohibition applies throughout Delhi, including North Delhi, South Delhi, East Delhi, and West Delhi.",
+  },
+  {
+    q: "Where can I find official information about electronic cigarette laws in India?",
+    a: "Read the Government of India's Prohibition of Electronic Cigarettes Act, 2019, for the applicable legal provisions.",
+  },
+  {
     q: "How fast is vape delivery across Delhi localities?",
     a: "We provide lightning-fast 30 to 60-minute express doorstep delivery across all 11 districts of Delhi. Orders in South Delhi (Saket, Hauz Khas, GK) and Central Delhi (Connaught Place) typically arrive within 20 to 30 minutes. Dedicated two-wheeler couriers are dispatched immediately upon order confirmation.",
   },
@@ -130,14 +154,6 @@ const FAQS = [
   {
     q: "Is doorstep packaging completely discreet and confidential?",
     a: "Yes, 100%. All orders are shipped in plain, unmarked, tamper-evident protective boxes. There are zero logos, branding, or product descriptions on the exterior of the parcel, ensuring total privacy.",
-  },
-  {
-    q: "What are your operating and delivery hours in Delhi?",
-    a: "Our delivery network operates from 10:00 AM to 11:30 PM, seven days a week. We also support urgent late-night deliveries across central hubs. Contact our WhatsApp helpline (+91 89509 53934) for real-time dispatch updates.",
-  },
-  {
-    q: "What is your return policy if a device is defective?",
-    a: "Due to hygiene regulations, opened consumable products cannot be returned. However, in the rare case of a verified factory manufacturing defect (Dead on Arrival / DOA), contact our WhatsApp team within 24 hours of delivery for prompt inspection and replacement.",
   },
 ];
 
@@ -242,6 +258,61 @@ export default function HomePage() {
       </section>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 sm:space-y-10 py-3 sm:py-6">
+        {/* Delhi NCR Authority Hero Heading Block (Page 1 Google Rank Booster) */}
+        <section className="text-center space-y-3.5 sm:space-y-4 pt-1 sm:pt-3 pb-2 sm:pb-3 max-w-4xl mx-auto">
+          {/* Top Pill Badge */}
+          <div className="inline-flex items-center gap-2 px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full bg-orange-50/90 border border-orange-200/90 text-orange-700 text-xs sm:text-[13px] font-semibold shadow-2xs">
+            <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
+            <span>⚡ 30-60 Min Express Delivery</span>
+            <span className="text-orange-300">|</span>
+            <span className="text-slate-700 font-medium">South • West • Central • North Delhi</span>
+          </div>
+
+          {/* Main Authority Heading */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.12]">
+            Vape Shop Delhi <br className="hidden sm:inline" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-amber-500 to-orange-500">
+              #1 Online Vape &amp; Pod Store
+            </span>
+          </h1>
+
+          {/* Keyword Rich SEO Description */}
+          <p className="max-w-3xl mx-auto text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed font-normal px-2">
+            Looking for a trusted <strong className="font-semibold text-slate-900">Vape Shop in Delhi</strong>? Buy 100% authentic disposable vapes, refillable pod kits, and imported nic salts from <strong className="font-semibold text-slate-900">Vape Shop Delhi</strong> with 30–60 min doorstep courier across South, West, Central &amp; North Delhi and Cash on Delivery (COD).
+          </p>
+
+          {/* Trending Category Quick Links */}
+          <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 pt-1 text-xs">
+            <span className="text-[11px] sm:text-xs font-bold text-slate-400 tracking-wider uppercase mr-1">
+              TRENDING IN DELHI:
+            </span>
+            <Link
+              href="/category/disposable-vapes"
+              className="px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-slate-700 font-semibold shadow-2xs hover:text-orange-600 hover:border-orange-400 hover:shadow-xs transition-all"
+            >
+              Disposable Vapes
+            </Link>
+            <Link
+              href="/category/pod-systems"
+              className="px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-slate-700 font-semibold shadow-2xs hover:text-orange-600 hover:border-orange-400 hover:shadow-xs transition-all"
+            >
+              Pod Systems &amp; Kits
+            </Link>
+            <Link
+              href="/category/e-liquids"
+              className="px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-slate-700 font-semibold shadow-2xs hover:text-orange-600 hover:border-orange-400 hover:shadow-xs transition-all"
+            >
+              Nic Salts &amp; E-Liquids
+            </Link>
+            <Link
+              href="/category/coils-pods"
+              className="px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-slate-700 font-semibold shadow-2xs hover:text-orange-600 hover:border-orange-400 hover:shadow-xs transition-all"
+            >
+              Replacement Coils &amp; Pods
+            </Link>
+          </div>
+        </section>
+
         {/* 1. Ultra-Compact Visual Category Row (Streamlined for Desktop & Phone) */}
         <section className="space-y-2.5 sm:space-y-3">
           <div className="flex items-center justify-between border-b border-orange-100/80 pb-2">
@@ -305,9 +376,9 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-1.5 text-xs font-bold text-orange-600 uppercase tracking-wider mb-0.5">
                 <Flame className="h-4 w-4" /> Bestsellers in Delhi
               </div>
-              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">
                 Vape Shop Delhi – Top Online Vape Store in Delhi
-              </h1>
+              </h2>
               <p className="text-xs sm:text-sm text-slate-600 mt-1 font-medium">
                 Best Vape Shop in Delhi – Order Online &amp; Get Fast 30–60 Min Doorstep Delivery with Cash on Delivery (COD).
               </p>
@@ -634,7 +705,16 @@ export default function HomePage() {
             </span>
             <div className="flex flex-wrap gap-1.5 text-[11px]">
               {[
+                { label: "Vape Shop Delhi", href: "/products" },
                 { label: "Vape Shop in Delhi", href: "/products" },
+                { label: "Best Vape Shop Delhi", href: "/products" },
+                { label: "Best Vape Shop in Delhi", href: "/products" },
+                { label: "Vape Shop Near Me", href: "/contact" },
+                { label: "Vape Delivery Delhi", href: "/products" },
+                { label: "Vape Shop South Delhi", href: "/products" },
+                { label: "Vape Shop West Delhi", href: "/products" },
+                { label: "Disposable Vape Delhi", href: "/category/disposable-vapes" },
+                { label: "Vape Price in Delhi", href: "/products" },
                 { label: "South Delhi Vape Delivery", href: "/products" },
                 { label: "Yuoto Thanos Delhi", href: "/search?q=Yuoto" },
                 { label: "Lost Mary 15000 Puffs Delhi", href: "/search?q=Lost+Mary" },
@@ -715,7 +795,7 @@ export default function HomePage() {
         </section>
 
         {/* 10. Frequently Asked Questions (Delhi Specific with FAQPage Schema) */}
-        <section className="max-w-4xl mx-auto space-y-6">
+        <section className="max-w-5xl mx-auto space-y-6">
           <div className="text-center space-y-2">
             <span className="text-xs font-bold text-orange-600 uppercase tracking-wider flex items-center justify-center gap-1">
               <HelpCircle className="h-3.5 w-3.5" /> Delhi FAQs
@@ -723,19 +803,28 @@ export default function HomePage() {
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
               Frequently Asked Questions in Delhi
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500">
-              Everything you need to know about doorstep vape ordering, COD payments, and authenticity verification in Delhi.
+            <p className="text-xs sm:text-sm text-slate-500 max-w-2xl mx-auto">
+              Essential guidance on electronic cigarette legal provisions, Delhi regulations, and doorstep delivery details.
             </p>
           </div>
 
-          <div className="space-y-3">
-            {FAQS.map((faq) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            {FAQS.map((faq, index) => (
               <div
                 key={faq.q}
-                className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-white border border-orange-100 shadow-sm space-y-2 hover:border-orange-300 transition-colors"
+                className="p-3.5 sm:p-4 rounded-xl sm:rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:border-orange-300 hover:shadow-xs transition-all flex flex-col justify-start"
               >
-                <h3 className="text-sm sm:text-base font-bold text-slate-900">{faq.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{faq.a}</p>
+                <div className="flex items-start gap-2.5">
+                  <span className="shrink-0 w-5 h-5 rounded-md bg-orange-50 border border-orange-200 text-orange-700 text-[10px] font-extrabold flex items-center justify-center mt-0.5">
+                    {index + 1}
+                  </span>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">
+                    {faq.q}
+                  </h3>
+                </div>
+                <p className="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-2 pl-7.5">
+                  {faq.a}
+                </p>
               </div>
             ))}
           </div>
