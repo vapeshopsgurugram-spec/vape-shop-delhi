@@ -135,10 +135,10 @@ export default function HeroSlider() {
             {/* H1 — main page heading overlaid on banner */}
             <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-white drop-shadow-lg">
               Vape Shop Delhi
-              <span className="block text-orange-400 text-xl sm:text-3xl lg:text-4xl mt-1 font-bold">
-                Best Vape Shop in Delhi
-              </span>
             </h1>
+            <p className="text-orange-400 text-lg sm:text-2xl lg:text-3xl font-bold -mt-1 sm:-mt-2">
+              Best Vape Shop &amp; Store in Delhi NCR
+            </p>
 
             {/* Subtitle */}
             <p className="text-sm sm:text-base text-white/85 max-w-lg leading-relaxed font-medium">

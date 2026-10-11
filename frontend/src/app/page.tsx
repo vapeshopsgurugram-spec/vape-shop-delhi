@@ -269,12 +269,12 @@ export default function HomePage() {
           </div>
 
           {/* Main Authority Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.12]">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.12]">
             Vape Shop Delhi <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-amber-500 to-orange-500">
               #1 Online Vape &amp; Pod Store
             </span>
-          </h1>
+          </h2>
 
           {/* Keyword Rich SEO Description */}
           <p className="max-w-3xl mx-auto text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed font-normal px-2">
