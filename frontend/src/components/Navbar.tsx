@@ -111,22 +111,16 @@ export default function Navbar() {
                     className="object-cover"
                   />
                 </div>
-                <div className="flex flex-col">
-                  <div className="flex items-center text-lg sm:text-2xl font-black tracking-tight leading-none">
+                <div className="flex flex-col justify-center">
+                  <div className="flex items-center text-base sm:text-xl font-black tracking-tight leading-none">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-amber-500 to-orange-500">
-                      Vape
+                      Vape Shop
                     </span>
-                    <span className="text-slate-900 font-extrabold ml-1">Shop</span>
+                    <span className="text-slate-900 font-extrabold ml-1.5">Delhi</span>
                   </div>
-                  <div className="flex items-center gap-1.5 mt-0.5">
-                    <span className="text-[7.5px] sm:text-[9px] font-extrabold text-orange-600 tracking-[0.2em] uppercase">
-                      DELHI
-                    </span>
-                    <span className="h-1 w-1 rounded-full bg-orange-400" />
-                    <span className="text-[7px] sm:text-[8px] font-bold text-slate-400 uppercase tracking-wider">
-                      STORE
-                    </span>
-                  </div>
+                  <span className="text-[7.5px] sm:text-[9px] font-bold text-slate-400 uppercase tracking-[0.18em] mt-0.5">
+                    Best Vape Store in Delhi
+                  </span>
                 </div>
               </Link>
 

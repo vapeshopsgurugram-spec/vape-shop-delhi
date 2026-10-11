@@ -377,7 +377,7 @@ export default function HomePage() {
                 <Flame className="h-4 w-4" /> Bestsellers in Delhi
               </div>
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">
-                Vape Shop Delhi – Top Online Vape Store in Delhi
+                Vape Shop Delhi – Best Vape Shop in Delhi
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 mt-1 font-medium">
                 Best Vape Shop in Delhi – Order Online &amp; Get Fast 30–60 Min Doorstep Delivery with Cash on Delivery (COD).
