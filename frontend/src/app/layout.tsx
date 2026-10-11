@@ -340,6 +340,7 @@ export default function RootLayout({
     "@id": "https://www.vapeshop-delhi.com/#website",
     url: "https://www.vapeshop-delhi.com",
     name: "Vape Shop Delhi",
+    alternateName: ["Vape Shop Delhi Store", "VapeShop Delhi", "VapeShopDelhi"],
     description:
       "Premier Vape Shop in Delhi & Delhi NCR - 30-60 min express delivery with Cash on Delivery & UPI.",
     publisher: {
