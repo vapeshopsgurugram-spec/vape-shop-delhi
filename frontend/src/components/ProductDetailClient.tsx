@@ -580,6 +580,38 @@ export default function ProductDetailClient({
           </div>
         </section>
 
+        {/* Frequently Asked Questions (Google Helpful Content & FAQ Schema Sync) */}
+        {faqs && faqs.length > 0 && (
+          <section className="rounded-2xl sm:rounded-3xl bg-white border border-slate-200/90 p-5 sm:p-7 space-y-4 shadow-xs">
+            <div className="space-y-1">
+              <span className="text-[11px] font-semibold text-orange-600 uppercase tracking-wider flex items-center gap-1.5">
+                <HelpCircle className="w-3.5 h-3.5" /> Buyer FAQs &amp; Delivery Help
+              </span>
+              <h3 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
+                Frequently Asked Questions About {product.name}
+              </h3>
+            </div>
+            <div className="space-y-3 pt-1">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="p-4 rounded-xl sm:rounded-2xl bg-orange-50/40 border border-orange-100/90 space-y-1.5"
+                >
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 flex items-start gap-2">
+                    <span className="w-5 h-5 rounded-full bg-orange-500 text-white flex items-center justify-center text-[10px] shrink-0 font-black mt-0.5">
+                      Q
+                    </span>
+                    <span>{faq.q}</span>
+                  </h4>
+                  <p className="text-xs text-slate-600 leading-relaxed pl-7">
+                    {faq.a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Related Products */}
         {relatedProducts.length > 0 && (
           <section className="space-y-3.5 pt-2">

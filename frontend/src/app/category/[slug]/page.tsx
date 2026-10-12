@@ -92,8 +92,8 @@ export async function generateMetadata({
   ];
 
   return {
-    title: `${name} in Delhi | Buy Online with Express Delivery`,
-    description: `Shop authentic ${name} in Delhi. Superfast 30-60 min express doorstep courier with Cash on Delivery (COD) & UPI. Best prices guaranteed.`,
+    title: `Buy ${name} in Delhi – Express 30m Delivery | Vape Shop Delhi`,
+    description: `Shop 100% authentic ${name} in Delhi from Vape Shop Delhi. Superfast 30-60 min express doorstep courier with Cash on Delivery (COD) & UPI. Best prices guaranteed.`,
     keywords,
     alternates: {
       canonical: `/category/${slug}`,

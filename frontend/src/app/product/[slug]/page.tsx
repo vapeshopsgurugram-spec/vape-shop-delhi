@@ -130,8 +130,8 @@ export default async function ProductDetailPage({
     ...(product.puffs
       ? [
           {
-            q: `How long will ${product.puffs.toLocaleString()} puffs last?`,
-            a: `${product.puffs.toLocaleString()} puffs typically lasts between 2 to 4 weeks depending on personal vaping frequency. The rechargeable Type-C battery ensures you get every last drop of e-liquid.`,
+            q: `How long will ${product.puffs.toLocaleString()} puffs of ${product.name} last?`,
+            a: `${product.puffs.toLocaleString()} puffs typically lasts between 2 to 4 weeks depending on personal vaping frequency. The rechargeable Type-C battery ensures consistent vapor and flavor until the e-liquid is completely consumed.`,
           },
         ]
       : [
@@ -140,6 +140,14 @@ export default async function ProductDetailPage({
             a: `Keep the device charged with a standard 5V/1A USB Type-C adapter, avoid chain-vaping when the pod liquid is low, and store it in a cool, dry place away from direct sunlight.`,
           },
         ]),
+    {
+      q: `Which areas in Delhi get 30–60 minute express courier for ${product.name}?`,
+      a: `Our active dispatch stations cover South Delhi (Saket, Hauz Khas, GK 1 & 2, Vasant Kunj, Green Park), Central Delhi (Connaught Place, Karol Bagh), West Delhi (Dwarka, Punjabi Bagh, Rajouri Garden), North Delhi (Rohini, Pitampura), and Aerocity.`,
+    },
+    {
+      q: `Is the delivery packaging of ${product.name} discreet and secure?`,
+      a: `Yes, 100%. All orders are delivered in plain, tamper-evident protective boxes with zero external branding, logos, or product names, ensuring complete privacy upon doorstep arrival.`,
+    },
   ];
 
   const faqSchema = {

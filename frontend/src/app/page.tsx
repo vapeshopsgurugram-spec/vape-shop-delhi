@@ -108,40 +108,28 @@ const DEVICE_COMPARISON = [
 
 const FAQS = [
   {
-    q: "What should I know before searching for a vape shop in Delhi?",
-    a: "Before visiting a vape store or looking for electronic cigarette products in Delhi, check the applicable Indian laws governing electronic cigarettes.",
+    q: "Where is the best vape shop in Delhi for authentic vapes?",
+    a: "Vape Shop Delhi (www.vapeshop-delhi.com) is Delhi's most trusted online store for 100% genuine disposable vapes, pod systems, replacement coils, and imported nic salts. Every device is backed by official manufacturer holographic scratch-off QR codes, with lightning-fast 30 to 60-minute express courier delivery across South Delhi, Central Delhi, West Delhi, North Delhi, and Delhi NCR.",
   },
   {
-    q: "Are vape shops legal in Delhi?",
-    a: "India's Prohibition of Electronic Cigarettes Act, 2019 prohibits the sale and distribution of electronic cigarettes covered by the Act.",
+    q: "How can I buy from a vape shop in Delhi with Cash on Delivery (COD)?",
+    a: "Ordering with Cash on Delivery (COD) is seamless. Simply select your favorite vape on our website or text our 24/7 WhatsApp dispatch desk (+91 88130 92161). We ship via dedicated local couriers with zero advance payment required. You inspect the tamper-evident package at your doorstep and pay via cash or UPI (Google Pay, PhonePe, Paytm).",
   },
   {
-    q: "Are disposable vapes prohibited in Delhi?",
-    a: "Disposable vaping devices that meet the Act's definition of electronic cigarettes are covered by the prohibition.",
-  },
-  {
-    q: "Are vape delivery services available legally in Delhi?",
-    a: "The Act prohibits the sale, distribution, and advertising of covered electronic cigarettes. Check the official legislation before relying on online listings or delivery claims.",
-  },
-  {
-    q: "What are the rules for vape products in South Delhi and North Delhi?",
-    a: "The central electronic-cigarette prohibition applies throughout Delhi, including North Delhi, South Delhi, East Delhi, and West Delhi.",
-  },
-  {
-    q: "Where can I find official information about electronic cigarette laws in India?",
-    a: "Read the Government of India's Prohibition of Electronic Cigarettes Act, 2019, for the applicable legal provisions.",
-  },
-  {
-    q: "How fast is vape delivery across Delhi localities?",
-    a: "We provide lightning-fast 30 to 60-minute express doorstep delivery across all 11 districts of Delhi. Orders in South Delhi (Saket, Hauz Khas, GK) and Central Delhi (Connaught Place) typically arrive within 20 to 30 minutes. Dedicated two-wheeler couriers are dispatched immediately upon order confirmation.",
-  },
-  {
-    q: "Can I pay via Cash on Delivery (COD) or Doorstep UPI in Delhi?",
-    a: "Yes! We proudly offer 100% Cash on Delivery (COD) across all Delhi neighborhoods with zero upfront payment. You can also pay the delivery rider upon arrival using any UPI app including Google Pay, PhonePe, Paytm, or BHIM.",
+    q: "How fast is delivery from Vape Shop Delhi to South Delhi, CP, and Dwarka?",
+    a: "We maintain multiple active dispatch hubs across the capital. Deliveries to South Delhi (Saket, Hauz Khas, Greater Kailash, Vasant Kunj) and Central Delhi (Connaught Place) arrive in 15 to 30 minutes. Deliveries to West Delhi (Dwarka, Punjabi Bagh) and North Delhi (Rohini, Pitampura) arrive in 25 to 40 minutes.",
   },
   {
     q: "How do I verify the authenticity of a vape delivered in Delhi?",
-    a: "Every vape, pod device, and coil box we dispatch is factory-sealed with the manufacturer's genuine anti-counterfeit holographic scratch-off security label. Simply scratch the silver coating to reveal your unique serial code and scan the QR code to verify authenticity directly on the brand's official portal (e.g. Elf Bar, Yuoto, Lost Mary, Uwell).",
+    a: "Every vape, pod device, and coil pack we dispatch comes factory-sealed with the manufacturer's genuine anti-counterfeit holographic scratch-off security label. Simply scratch the protective silver coating to reveal your unique serial code and scan the QR code to authenticate directly on the brand's official security portal (Elf Bar, Yuoto, Lost Mary, Uwell, Geek Bar).",
+  },
+  {
+    q: "Is doorstep packaging completely discreet and confidential?",
+    a: "Yes, 100%. All orders are delivered in plain, unmarked, tamper-evident protective boxes with zero external logos, brand markings, or product descriptions, guaranteeing complete privacy for customers living in family homes, apartments, or corporate locations.",
+  },
+  {
+    q: "What should I know regarding electronic cigarette regulations in India?",
+    a: "Before ordering or purchasing electronic cigarette products in Delhi, adult consumers should be aware of the Government of India's Prohibition of Electronic Cigarettes Act (PECA), 2019.",
   },
   {
     q: "Do you deliver to hotels and business districts in Aerocity and Central Delhi?",
@@ -150,10 +138,6 @@ const FAQS = [
   {
     q: "Which disposable vape brand is most popular in Delhi right now?",
     a: "Our bestsellers in Delhi include Yuoto Thanos 5000, Lost Mary MT15000 Turbo, EBCREATE BC5000 US Edition, Geek Bar Burj 80000 Puffs, and Uwell Caliburn Pod Systems. We also carry fresh stocks of imported premium nicotine salt e-liquids like VGod and Nasty Juice.",
-  },
-  {
-    q: "Is doorstep packaging completely discreet and confidential?",
-    a: "Yes, 100%. All orders are shipped in plain, unmarked, tamper-evident protective boxes. There are zero logos, branding, or product descriptions on the exterior of the parcel, ensuring total privacy.",
   },
 ];
 
@@ -380,7 +364,7 @@ export default function HomePage() {
                 Vape Shop Delhi – Best Vape Shop in Delhi
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 mt-1 font-medium">
-                Best Vape Shop in Delhi – Order Online &amp; Get Fast 30–60 Min Doorstep Delivery with Cash on Delivery (COD).
+                Order 100% authentic disposable vapes &amp; pod kits with fast 30–60 min doorstep courier and Cash on Delivery (COD) across Delhi NCR.
               </p>
             </div>
             <Link
