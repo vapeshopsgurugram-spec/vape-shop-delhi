@@ -5,7 +5,7 @@ import { ChevronRight, ShieldCheck } from "lucide-react";
 import { STORE_INFO } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | " + STORE_INFO.name,
+  title: "Privacy Policy",
   description:
     "Privacy Policy and customer data protection information for " + STORE_INFO.name + ". Safe, encrypted, and discreet ordering.",
   alternates: {

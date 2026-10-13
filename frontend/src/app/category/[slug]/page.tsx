@@ -88,12 +88,12 @@ export async function generateMetadata({
     `${name} Delhi NCR`,
     `Buy ${name} online Delhi`,
     `${name} express delivery Delhi NCR`,
-    `Authentic ${name} cash on delivery`,
+    `Authentic ${name} express delivery`,
   ];
 
   return {
-    title: `Buy ${name} in Delhi – Express 30m Delivery | Vape Shop Delhi`,
-    description: `Shop 100% authentic ${name} in Delhi from Vape Shop Delhi. Superfast 30-60 min express doorstep courier with Cash on Delivery (COD) & UPI. Best prices guaranteed.`,
+    title: `Buy ${name} in Delhi – Express 30m Delivery`,
+    description: `Shop 100% authentic ${name} in Delhi from Vape Shop Delhi. Superfast 30-60 min express doorstep courier across Delhi NCR. Best prices guaranteed.`,
     keywords,
     alternates: {
       canonical: `/category/${slug}`,

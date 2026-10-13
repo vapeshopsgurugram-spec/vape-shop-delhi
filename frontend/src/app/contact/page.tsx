@@ -4,7 +4,7 @@ import ContactClient from "@/components/ContactClient";
 import { STORE_INFO } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Contact Us & Express Delivery | " + STORE_INFO.name,
+  title: "Contact Us & Express Delivery",
   description:
     `Order authentic disposable vapes and pods online in Delhi. Call or WhatsApp ${STORE_INFO.phone} for 30-60 minute express delivery across Delhi NCR.`,
   keywords: [

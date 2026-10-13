@@ -1,5 +1,17 @@
 import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
+  },
+  description:
+    "Looking for the best vape shop in Delhi? Order online from Vape Shop Delhi for 100% authentic disposable vapes, pods and e-liquids. 30–60 min express doorstep courier across South Delhi, West Delhi & Delhi NCR.",
+  alternates: {
+    canonical: "https://www.vapeshop-delhi.com",
+  },
+};
 import {
   Zap,
   ShieldCheck,

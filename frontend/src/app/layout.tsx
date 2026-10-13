@@ -23,11 +23,11 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vape Shop Delhi – Best Vape Shop in Delhi",
+    default: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
     template: "%s | Vape Shop Delhi",
   },
   description:
-    "Looking for the best vape shop in Delhi? Order online from Vape Shop Delhi for 100% authentic disposable vapes, pods and e-liquids. 30–60 min express doorstep courier with Cash on Delivery (COD) across South Delhi, West Delhi & Delhi NCR.",
+    "Looking for the best vape shop in Delhi? Order online from Vape Shop Delhi for 100% authentic disposable vapes, pods and e-liquids. 30–60 min express doorstep courier across South Delhi, West Delhi & Delhi NCR.",
   keywords: [
     // 1. Delhi Core Commercial Keywords
     "Vape Shop Delhi",
@@ -158,9 +158,9 @@ export const metadata: Metadata = {
     "ICBM": "28.6139, 77.2090",
   },
   openGraph: {
-    title: "Vape Shop Delhi – Top Online Vape Store in Delhi",
+    title: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
     description:
-      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier with Cash on Delivery (COD) across Delhi NCR.",
+      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier across Delhi NCR.",
     url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop Delhi",
     locale: "en_IN",
@@ -170,15 +170,15 @@ export const metadata: Metadata = {
         url: "/banners/delhi-vape-banner-1.png",
         width: 1953,
         height: 805,
-        alt: "Vape Shop Delhi - Top Online Vape Store in Delhi",
+        alt: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vape Shop Delhi – Top Online Vape Store in Delhi",
+    title: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
     description:
-      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier with Cash on Delivery (COD) across Delhi NCR.",
+      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier across Delhi NCR.",
     images: ["/banners/delhi-vape-banner-1.png"],
   },
   robots: {

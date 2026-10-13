@@ -6,9 +6,9 @@ import { PRODUCTS, CATEGORIES } from "@/data/products";
 import ProductsCatalog from "@/components/ProductsCatalog";
 
 export const metadata: Metadata = {
-  title: "Buy Vapes Online in Delhi – Disposable Vapes & Pods | Vape Shop Delhi",
+  title: "Buy Vapes Online in Delhi – Disposable Vapes & Pods",
   description:
-    "Buy 100% genuine disposable vapes, refillable pod kits, replacement coils & nic salts online from Vape Shop Delhi. Express 30–60 min courier with Cash on Delivery (COD) across Delhi NCR.",
+    "Buy 100% genuine disposable vapes, refillable pod kits, replacement coils & nic salts online from Vape Shop Delhi. Express 30–60 min courier across Delhi NCR.",
   keywords: [
     "Vape Shop Delhi",
     "Vape Shop in Delhi",

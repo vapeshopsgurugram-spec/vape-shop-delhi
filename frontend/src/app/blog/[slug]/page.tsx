@@ -28,7 +28,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} | Vape Shop Delhi`,
+    title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
     alternates: {

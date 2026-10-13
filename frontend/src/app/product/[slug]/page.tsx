@@ -38,8 +38,8 @@ export async function generateMetadata({
   ];
 
   return {
-    title: `Buy ${product.name} in Delhi – Express 30m Delivery | Vape Shop Delhi`,
-    description: `${product.description} 100% authentic with factory scratch code. 30–60 min doorstep delivery with Cash on Delivery (COD) across Delhi & NCR.`,
+    title: `Buy ${product.name} in Delhi – Express 30m Delivery`,
+    description: `${product.description} 100% authentic with factory scratch code. 30–60 min express doorstep delivery across Delhi & NCR.`,
     keywords: productKeywords,
     openGraph: {
       title: `${product.name} - ₹${product.price.toLocaleString("en-IN")} | Vape Shop Delhi`,
@@ -92,11 +92,40 @@ export default async function ProductDetailPage({
       priceCurrency: "INR",
       price: product.price,
       priceValidUntil: "2027-12-31",
+      validFrom: "2024-01-01",
       itemCondition: "https://schema.org/NewCondition",
       availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
         name: "Vape Shop Delhi",
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: "0",
+          currency: "INR",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "IN",
+          addressRegion: "Delhi NCR",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 0,
+            maxValue: 1,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 0,
+            maxValue: 1,
+            unitCode: "DAY",
+          },
+        },
       },
       hasMerchantReturnPolicy: {
         "@type": "MerchantReturnPolicy",

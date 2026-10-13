@@ -6,7 +6,7 @@ import { ChevronRight, Clock, Calendar, ArrowRight, Sparkles } from "lucide-reac
 import { BLOG_POSTS } from "@/data/blogs";
 
 export const metadata: Metadata = {
-  title: "Vape Guides, Reviews & Delivery Insights | Vape Shop Delhi",
+  title: "Vape Guides, Reviews & Delivery Insights",
   description:
     "Explore in-depth vape buying guides, authenticity verification tutorials, puff count comparisons, flavor charts, and express 30-min courier details across South Delhi, CP, Dwarka, and Delhi NCR.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Gaffar market vape clone check",
     "Best disposable vapes 2026 Delhi",
     "Vape delivery Delhi guide",
-    "Cash on delivery vape Delhi",
+    "Express vape delivery Delhi",
     "Pod systems vs disposables Delhi",
     "Vape Shop Delhi Blog",
   ],

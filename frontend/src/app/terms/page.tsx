@@ -5,7 +5,7 @@ import { ChevronRight, FileText, AlertTriangle } from "lucide-react";
 import { STORE_INFO } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | " + STORE_INFO.name,
+  title: "Terms of Service",
   description:
     "Terms of service, age compliance, and delivery conditions for " + STORE_INFO.name + ". Serving Delhi NCR with 100% genuine products.",
   alternates: {

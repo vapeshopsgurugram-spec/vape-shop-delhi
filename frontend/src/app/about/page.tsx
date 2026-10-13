@@ -16,7 +16,7 @@ import {
 import { STORE_INFO } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "About Us | Vape Shop Delhi - Premier Vapes & Pods",
+  title: "About Us – Premier Authentic Vapes & Pods",
   description:
     "Learn about Vape Shop Delhi, Delhi's most trusted online store for 100% authentic disposable vapes, pod systems, and nicotine salts with 30-60 min express delivery.",
   keywords: [
