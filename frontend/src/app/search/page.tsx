@@ -17,6 +17,10 @@ export async function generateMetadata({
       ? `Search results for "${query}" | ${STORE_INFO.name}`
       : `Search Vapes & Pods | ${STORE_INFO.name}`,
     description: `Find authentic vapes, disposables, pod kits, and e-liquids matching "${query}" in Delhi.`,
+    robots: {
+      index: false,
+      follow: true,
+    },
   };
 }
 

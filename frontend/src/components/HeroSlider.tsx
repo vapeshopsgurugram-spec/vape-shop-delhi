@@ -132,10 +132,10 @@ export default function HeroSlider() {
               Same-Day Delivery · Delhi NCR
             </span>
 
-            {/* H1 — main page heading overlaid on banner */}
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-white drop-shadow-lg">
+            {/* Slider Title Overlay */}
+            <p className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-white drop-shadow-lg" role="heading" aria-level={2}>
               Vape Shop Delhi
-            </h1>
+            </p>
             <p className="text-orange-400 text-lg sm:text-2xl lg:text-3xl font-bold -mt-1 sm:-mt-2">
               Best Vape Shop &amp; Store in Delhi NCR
             </p>
