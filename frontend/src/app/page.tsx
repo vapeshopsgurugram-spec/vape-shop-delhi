@@ -125,7 +125,7 @@ const FAQS = [
   },
   {
     q: "How can I buy from a vape shop in Delhi with Cash on Delivery (COD)?",
-    a: "Ordering with Cash on Delivery (COD) is seamless. Simply select your favorite vape on our website or text our 24/7 WhatsApp dispatch desk (+91 88130 92161). We ship via dedicated local couriers with zero advance payment required. You inspect the tamper-evident package at your doorstep and pay via cash or UPI (Google Pay, PhonePe, Paytm).",
+    a: "Ordering with Cash on Delivery (COD) is seamless. Simply select your favorite vape on our website or text our 24/7 WhatsApp dispatch desk (+91 88169 64412). We ship via dedicated local couriers with zero advance payment required. You inspect the tamper-evident package at your doorstep and pay via cash or UPI (Google Pay, PhonePe, Paytm).",
   },
   {
     q: "How fast is delivery from Vape Shop Delhi to South Delhi, CP, and Dwarka?",
