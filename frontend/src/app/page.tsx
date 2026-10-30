@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
+    absolute: "Vape Shop Delhi – 100% Authentic Vapes | 30m Delivery (COD)",
   },
   description:
-    "Looking for the best vape shop in Delhi? Order online from Vape Shop Delhi for 100% authentic disposable vapes, pods and e-liquids. 30–60 min express doorstep courier across South Delhi, West Delhi & Delhi NCR.",
+    "Delhi's #1 trusted online vape store. Buy 100% authentic disposable vapes, pods & e-liquids with 30–60 min express courier across South Delhi & Delhi NCR. COD available.",
   alternates: {
     canonical: "https://www.vapeshop-delhi.com",
   },

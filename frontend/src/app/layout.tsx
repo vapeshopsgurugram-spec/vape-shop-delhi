@@ -23,11 +23,11 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
+    default: "Vape Shop Delhi – 100% Authentic Vapes | 30m Delivery (COD)",
     template: "%s | Vape Shop Delhi",
   },
   description:
-    "Looking for the best vape shop in Delhi? Order online from Vape Shop Delhi for 100% authentic disposable vapes, pods and e-liquids. 30–60 min express doorstep courier across South Delhi, West Delhi & Delhi NCR.",
+    "Delhi's trusted online vape store. Buy 100% authentic disposable vapes, pods & e-liquids with 30–60 min express courier across South Delhi & Delhi NCR. COD available.",
   keywords: [
     // 1. Delhi Core Commercial Keywords
     "Vape Shop Delhi",
@@ -148,9 +148,6 @@ export const metadata: Metadata = {
   creator: "Vape Shop Delhi",
   publisher: "Vape Shop Delhi",
   metadataBase: new URL("https://www.vapeshop-delhi.com"),
-  alternates: {
-    canonical: "/",
-  },
   other: {
     "geo.region": "IN-DL",
     "geo.placename": "New Delhi, South Delhi, Central Delhi, West Delhi, North Delhi, East Delhi",

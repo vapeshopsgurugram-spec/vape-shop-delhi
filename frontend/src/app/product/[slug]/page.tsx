@@ -38,8 +38,8 @@ export async function generateMetadata({
   ];
 
   return {
-    title: `Buy ${product.name} in Delhi – Express 30m Delivery`,
-    description: `${product.description} 100% authentic with factory scratch code. 30–60 min express doorstep delivery across Delhi & NCR.`,
+    title: `${product.name} in Delhi (COD & 30m Delivery)`,
+    description: `Buy authentic ${product.name} in Delhi with factory scratch-off QR code. 30-60 min express delivery across Delhi NCR. Cash on Delivery available.`,
     keywords: productKeywords,
     openGraph: {
       title: `${product.name} - ₹${product.price.toLocaleString("en-IN")} | Vape Shop Delhi`,

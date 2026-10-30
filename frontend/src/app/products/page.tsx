@@ -6,33 +6,15 @@ import { PRODUCTS, CATEGORIES } from "@/data/products";
 import ProductsCatalog from "@/components/ProductsCatalog";
 
 export const metadata: Metadata = {
-  title: "Buy Vapes Online in Delhi – Disposable Vapes & Pods",
+  title: "Buy Vapes Online Delhi – Genuine Pods & Kits",
   description:
     "Buy 100% genuine disposable vapes, refillable pod kits, replacement coils & nic salts online from Vape Shop Delhi. Express 30–60 min courier across Delhi NCR.",
   keywords: [
-    "Vape Shop Delhi",
-    "Vape Shop in Delhi",
-    "Best Vape Shop Delhi",
-    "Best Vape Shop in Delhi",
-    "Vape Shop Near Me",
-    "Vape Delivery Delhi",
-    "Vape Shop South Delhi",
-    "Vape Shop West Delhi",
-    "Disposable Vape Delhi",
-    "Vape Price in Delhi",
-    "All Vape Products Delhi",
     "Buy Vapes Online Delhi",
     "Disposable Vapes Delhi",
     "Pod Systems Delhi",
-    "Vape Delivery Delhi 30 mins",
-    "Yuoto Thanos Delhi",
-    "Elf Bar Delhi",
-    "Lost Mary Delhi NCR",
-    "IGET Moon Delhi",
-    "Uwell Caliburn Pods",
-    "Nicotine Salts 50mg Delhi",
-    "Cash on Delivery Vapes Delhi",
-    "Vape Store Near Me Delhi",
+    "Vape Price in Delhi",
+    "Authentic Vape Store Delhi",
   ],
   alternates: {
     canonical: "/products",
