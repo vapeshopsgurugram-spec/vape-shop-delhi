@@ -4,12 +4,27 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Vape Shop Delhi – 100% Authentic Vapes | 30m Delivery (COD)",
+    absolute: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
   },
   description:
-    "Delhi's #1 trusted online vape store. Buy 100% authentic disposable vapes, pods & e-liquids with 30–60 min express courier across South Delhi & Delhi NCR. COD available.",
+    "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
   alternates: {
     canonical: "https://www.vapeshop-delhi.com",
+  },
+  openGraph: {
+    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
+    description:
+      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
+    url: "https://www.vapeshop-delhi.com",
+    siteName: "Vape Shop Delhi",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
+    description:
+      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
   },
 };
 import {
@@ -80,6 +95,13 @@ const DELIVERY_HUBS = [
     time: "20–30 mins",
     status: "Priority Express",
     hubStation: "Aerocity Express Desk",
+  },
+  {
+    zone: "Noida & Delhi NCR",
+    areas: "Sector 18, Sector 62, Sector 137, Greater Noida, Indirapuram, Vaishali",
+    time: "30–45 mins",
+    status: "Express Fleet",
+    hubStation: "Noida Sector 18 & Mayur Vihar Link",
   },
 ];
 

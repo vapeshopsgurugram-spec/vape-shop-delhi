@@ -23,11 +23,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vape Shop Delhi – 100% Authentic Vapes | 30m Delivery (COD)",
+    default: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
     template: "%s | Vape Shop Delhi",
   },
-  description:
-    "Delhi's trusted online vape store. Buy 100% authentic disposable vapes, pods & e-liquids with 30–60 min express courier across South Delhi & Delhi NCR. COD available.",
+  description: "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
   keywords: [
     // 1. Delhi Core Commercial Keywords
     "Vape Shop Delhi",
@@ -155,9 +154,9 @@ export const metadata: Metadata = {
     "ICBM": "28.6139, 77.2090",
   },
   openGraph: {
-    title: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
+    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
     description:
-      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier across Delhi NCR.",
+      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
     url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop Delhi",
     locale: "en_IN",
@@ -173,9 +172,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Vape Shop Delhi – 100% Authentic, Original Vapes Delhi",
+    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
     description:
-      "Best Vape Shop in Delhi – Order Online & Get Fast Delivery. Looking for premium disposable vapes, pods and e-liquids in Delhi? 30-60 min express doorstep courier across Delhi NCR.",
+      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
     images: ["/banners/delhi-vape-banner-1.png"],
   },
   robots: {
@@ -238,6 +237,9 @@ export default function RootLayout({
       "South Delhi Vape Store",
       "Vape Shop Connaught Place",
       "Vape Shop Delhi NCR",
+      "Vape Shop Noida",
+      "Vape Delivery Noida",
+      "Vape Delivery Delhi NCR",
     ],
     url: "https://www.vapeshop-delhi.com",
     logo: "https://www.vapeshop-delhi.com/vape-shop-delhi-logo.png",
@@ -292,6 +294,11 @@ export default function RootLayout({
       { "@type": "AdministrativeArea", name: "Dwarka" },
       { "@type": "AdministrativeArea", name: "Mayur Vihar" },
       { "@type": "AdministrativeArea", name: "Aerocity" },
+      { "@type": "City", name: "Noida" },
+      { "@type": "City", name: "Greater Noida" },
+      { "@type": "City", name: "Gurgaon" },
+      { "@type": "City", name: "Ghaziabad" },
+      { "@type": "AdministrativeArea", name: "Delhi NCR" },
     ],
     aggregateRating: {
       "@type": "AggregateRating",
