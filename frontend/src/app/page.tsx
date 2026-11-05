@@ -4,17 +4,17 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
+    absolute: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
   },
   description:
-    "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
+    "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
   alternates: {
     canonical: "https://www.vapeshop-delhi.com",
   },
   openGraph: {
-    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
+    title: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
     description:
-      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
+      "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
     url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop Delhi",
     locale: "en_IN",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vape Shop Delhi - 30 Min Express Vape Delivery in Delhi NCR",
+    title: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
     description:
-      "Buy 100% authentic disposable vapes, pod kits & nic salts from Vape Shop Delhi. 30–60 min express doorstep delivery in Delhi, Noida & NCR with Cash on Delivery.",
+      "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
   },
 };
 import {
@@ -734,12 +734,12 @@ export default function HomePage() {
                 { label: "Disposable Vape Delhi", href: "/category/disposable-vapes" },
                 { label: "Vape Price in Delhi", href: "/products" },
                 { label: "South Delhi Vape Delivery", href: "/products" },
-                { label: "Yuoto Thanos Delhi", href: "/search?q=Yuoto" },
-                { label: "Lost Mary 15000 Puffs Delhi", href: "/search?q=Lost+Mary" },
-                { label: "Elf Bar BC5000 Delhi", href: "/search?q=Elf+Bar" },
-                { label: "Geek Bar Burj 80K Delhi", href: "/search?q=Geek+Bar" },
-                { label: "Uwell Caliburn Pods Delhi", href: "/search?q=Caliburn" },
-                { label: "IGET Moon Disposables", href: "/search?q=IGET" },
+                { label: "Yuoto Thanos Delhi", href: "/product/yuoto-digi-15000-disposable-pod-device" },
+                { label: "Lost Mary 15000 Puffs Delhi", href: "/product/lost-mary-nera-fullview-70000-disposable-kit" },
+                { label: "Elf Bar BC5000 Delhi", href: "/product/ebcreate-bc5000-disposable-pod-device-us-edition" },
+                { label: "Geek Bar Burj 80K Delhi", href: "/product/geek-bar-burj-80000-disposable-pod-device" },
+                { label: "Uwell Caliburn Pods Delhi", href: "/product/uwell-caliburn-a2-pod-system" },
+                { label: "IGET Moon Disposables", href: "/product/iget-move-b50000-disposable-pod-device" },
                 { label: "Connaught Place Vape Store", href: "/contact" },
                 { label: "Dwarka Vape Delivery", href: "/products" },
                 { label: "Saket & GK Vapes", href: "/products" },

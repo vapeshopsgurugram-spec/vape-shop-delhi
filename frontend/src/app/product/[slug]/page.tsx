@@ -52,7 +52,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: `/product/${product.slug}`,
+      canonical: `https://www.vapeshop-delhi.com/product/${product.slug}`,
     },
   };
 }
@@ -84,7 +84,7 @@ export default async function ProductDetailPage({
     mpn: product.id,
     brand: {
       "@type": "Brand",
-      name: product.brand || "Vape Shop Delhi",
+      name: product.brand || "Authentic Vape",
     },
     offers: {
       "@type": "Offer",
@@ -135,11 +135,6 @@ export default async function ProductDetailPage({
         returnMethod: "https://schema.org/ReturnInStore",
         returnFees: "https://schema.org/FreeReturn",
       },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewsCount || 120,
     },
   };
 

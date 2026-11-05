@@ -8,7 +8,7 @@ import { BLOG_POSTS } from "@/data/blogs";
 export const metadata: Metadata = {
   title: "Vape Guides, Reviews & Delivery Insights",
   description:
-    "Explore in-depth vape buying guides, authenticity verification tutorials, puff count comparisons, flavor charts, and express 30-min courier details across South Delhi, CP, Dwarka, and Delhi NCR.",
+    "Read expert vape buying guides, authenticity checks, puff count comparisons, and express delivery insights for Delhi and Delhi NCR.",
   keywords: [
     "Vape Guides Delhi",
     "How to spot fake vapes Delhi",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "Vape Shop Delhi Blog",
   ],
   alternates: {
-    canonical: "/blog",
+    canonical: "https://www.vapeshop-delhi.com/blog",
   },
   openGraph: {
     title: "Vape Guides & Insights | Vape Shop Delhi",

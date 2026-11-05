@@ -96,7 +96,7 @@ export async function generateMetadata({
     description: `Shop 100% authentic ${name} in Delhi from Vape Shop Delhi. Superfast 30-60 min express doorstep courier across Delhi NCR. Best prices guaranteed.`,
     keywords,
     alternates: {
-      canonical: `/category/${slug}`,
+      canonical: `https://www.vapeshop-delhi.com/category/${slug}`,
     },
     openGraph: {
       title: `${name} in Delhi | Vape Shop Delhi`,

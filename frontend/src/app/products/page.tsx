@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Authentic Vape Store Delhi",
   ],
   alternates: {
-    canonical: "/products",
+    canonical: "https://www.vapeshop-delhi.com/products",
   },
   openGraph: {
     title: "All Vape Products & Kits | Vape Shop Delhi",

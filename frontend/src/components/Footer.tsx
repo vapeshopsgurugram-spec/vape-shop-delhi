@@ -222,28 +222,28 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>
-                <Link href="/search?q=Yuoto" className="hover:text-orange-400 transition-colors">
-                  Yuoto Thanos 5000 Puffs
+                <Link href="/product/yuoto-digi-15000-disposable-pod-device" className="hover:text-orange-400 transition-colors">
+                  Yuoto Digi 15000 Puffs
                 </Link>
               </li>
               <li>
-                <Link href="/search?q=Lost+Mary" className="hover:text-orange-400 transition-colors">
-                  Lost Mary MT15000 Turbo
+                <Link href="/product/lost-mary-nera-fullview-70000-disposable-kit" className="hover:text-orange-400 transition-colors">
+                  Lost Mary MT15000 / Nera 70K
                 </Link>
               </li>
               <li>
-                <Link href="/search?q=Caliburn" className="hover:text-orange-400 transition-colors">
-                  Uwell Caliburn A3S &amp; G3
+                <Link href="/product/uwell-caliburn-a2-pod-system" className="hover:text-orange-400 transition-colors">
+                  Uwell Caliburn A2 &amp; G3
                 </Link>
               </li>
               <li>
-                <Link href="/search?q=Elf+Bar" className="hover:text-orange-400 transition-colors">
+                <Link href="/product/ebcreate-bc5000-disposable-pod-device-us-edition" className="hover:text-orange-400 transition-colors">
                   Elf Bar BC5000 Disposables
                 </Link>
               </li>
               <li>
-                <Link href="/search?q=IGET" className="hover:text-orange-400 transition-colors">
-                  IGET Moon &amp; Star Series
+                <Link href="/product/iget-move-b50000-disposable-pod-device" className="hover:text-orange-400 transition-colors">
+                  IGET Move &amp; Star Series
                 </Link>
               </li>
               <li>
@@ -307,10 +307,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 4. SEO Topical Delhi Authority */}
+        {/* 4. Store Info & Delhi Delivery Coverage */}
         <div className="py-4 border-b border-slate-800/60 text-[11px] text-slate-500 leading-relaxed">
           <p>
-            <strong className="text-slate-400 font-semibold">Vape Shop Delhi:</strong> Delhi&apos;s #1 premier online vape store for all top searches including <span className="text-slate-400">Vape Shop Delhi</span>, <span className="text-slate-400">Vape Shop in Delhi</span>, <span className="text-slate-400">Best Vape Shop Delhi</span>, <span className="text-slate-400">Best Vape Shop in Delhi</span>, <span className="text-slate-400">Vape Shop Near Me</span>, <span className="text-slate-400">Vape Delivery Delhi</span>, <span className="text-slate-400">Vape Shop South Delhi</span>, <span className="text-slate-400">Vape Shop West Delhi</span>, <span className="text-slate-400">Disposable Vape Delhi</span>, and authentic <span className="text-slate-400">Vape Price in Delhi</span>. Guaranteed original sealed devices with 30–60 min instant courier dispatch across all Delhi NCR pin codes.
+            <strong className="text-slate-400 font-semibold">Vape Shop Delhi:</strong> Premier authentic vape store serving Delhi NCR. We offer factory-sealed disposable vapes, refillable pod kits, replacement coils, and imported nic salts with 60–90 min express courier across South, West, Central, North & East Delhi pin codes.
           </p>
         </div>
 

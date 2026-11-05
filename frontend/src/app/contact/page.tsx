@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Same day vape delivery Delhi NCR",
   ],
   alternates: {
-    canonical: "/contact",
+    canonical: "https://www.vapeshop-delhi.com/contact",
   },
   openGraph: {
     title: "Contact & Fast Delivery | " + STORE_INFO.name,

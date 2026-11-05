@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Express vape delivery South Delhi",
   ],
   alternates: {
-    canonical: "/about",
+    canonical: "https://www.vapeshop-delhi.com/about",
   },
   openGraph: {
     title: "About Us | Vape Shop Delhi",
