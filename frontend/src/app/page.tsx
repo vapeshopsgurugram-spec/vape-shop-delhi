@@ -173,6 +173,22 @@ const FAQS = [
     q: "Which disposable vape brand is most popular in Delhi right now?",
     a: "Our bestsellers in Delhi include Yuoto Thanos 5000, Lost Mary MT15000 Turbo, EBCREATE BC5000 US Edition, Geek Bar Burj 80000 Puffs, and Uwell Caliburn Pod Systems. We also carry fresh stocks of imported premium nicotine salt e-liquids like VGod and Nasty Juice.",
   },
+  {
+    q: "Can I get late night or 24/7 express vape delivery in Delhi?",
+    a: "Yes, our hyperlocal delivery fleet in Delhi operates late hours for emergency refills. We deliver across South Delhi, Central Delhi, West Delhi, and Aerocity with express two-wheeler couriers and Cash on Delivery (COD). You can message our WhatsApp dispatch desk (+91 77422 43176) anytime to check real-time rider availability.",
+  },
+  {
+    q: "Do you deliver vapes to Noida, Greater Noida, and Gurgaon (Gurugram)?",
+    a: "Yes! In addition to full coverage across New Delhi, we provide same-day express doorstep delivery to Noida (Sector 18, Sector 62, Sector 137), Greater Noida, and Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road). All orders come with factory scratch-off QR codes and Cash on Delivery.",
+  },
+  {
+    q: "What is the difference between disposable vapes and refillable pod kits?",
+    a: "Disposable vapes come pre-filled and pre-charged, offering 5,000 to 80,000 puffs with zero maintenance—ideal for hassle-free use and travel. Refillable pod kits (like Uwell Caliburn) require purchasing separate 30ml nicotine salt bottles, providing long-term cost savings (up to 40% cheaper over time) and custom flavor flexibility.",
+  },
+  {
+    q: "What nicotine strengths are available at Vape Shop Delhi?",
+    a: "We offer premium disposable vapes and nicotine salts ranging from 20mg (2%) for a smooth, milder throat hit to 50mg (5%) for users seeking a stronger, satisfying experience. All our e-liquids are 100% factory-sealed imported brands including VGod, Nasty Juice, and Dinner Lady.",
+  },
 ];
 
 export default function HomePage() {

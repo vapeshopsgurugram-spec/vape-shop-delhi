@@ -15,6 +15,14 @@ export interface BlogPost {
     heading: string;
     paragraphs: string[];
   }>;
+  faqs?: Array<{
+    q: string;
+    a: string;
+  }>;
+  relatedLinks?: Array<{
+    title: string;
+    href: string;
+  }>;
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -64,6 +72,21 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        q: "How fast is vape delivery in South Delhi and Connaught Place?",
+        a: "Delivery to South Delhi (Saket, GK, Hauz Khas) and Central Delhi (CP) takes 15 to 30 minutes from our localized dispatch stations.",
+      },
+      {
+        q: "Can I pay with UPI at the time of doorstep delivery?",
+        a: "Yes, our delivery riders carry static UPI QR codes so you can conveniently pay via Google Pay, PhonePe, or Paytm once you inspect your parcel.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Disposable Vapes Delhi", href: "/category/disposable-vapes" },
+      { title: "Pod Systems & Starter Kits", href: "/category/pod-systems" },
+      { title: "Contact Delhi Dispatch Desk", href: "/contact" },
+    ],
   },
   {
     id: "b-2",
@@ -106,6 +129,21 @@ export const BLOG_POSTS: BlogPost[] = [
           "At Vape Shop Delhi, we procure strictly through authorized factory channels. We encourage every customer to scratch and scan their verification QR code on the spot in front of the delivery rider before opening the inner blister wrap.",
         ],
       },
+    ],
+    faqs: [
+      {
+        q: "What should I do if the QR code shows it has been queried multiple times?",
+        a: "If a security code shows multiple prior queries, the label has been duplicated and the device is a clone. You should reject the parcel immediately.",
+      },
+      {
+        q: "Are all products from Vape Shop Delhi factory-sealed?",
+        a: "Yes, 100% of our devices come factory-sealed with intact holographic security stickers and verifiable scratch codes.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Buy 100% Original Vapes", href: "/products" },
+      { title: "Yuoto Digi 15000 Puffs", href: "/product/yuoto-digi-15000-disposable-pod-device" },
+      { title: "Elf Bar BC5000 Genuine", href: "/product/ebcreate-bc5000-disposable-pod-device-us-edition" },
     ],
   },
   {
@@ -150,6 +188,21 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        q: "How long does an 80,000 puff vape typically last?",
+        a: "For moderate vapers, an 80,000 puff device like the Geek Bar Burj typically lasts between 4 to 7 weeks.",
+      },
+      {
+        q: "Can high-puff disposable vapes be recharged?",
+        a: "Yes, all modern high-puff disposables (10K+ puffs) feature Type-C fast charging ports to recharge the battery until the pre-filled liquid is fully consumed.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Geek Bar Burj 80K Device", href: "/product/geek-bar-burj-80000-disposable-pod-device" },
+      { title: "Lost Mary Nera 70K FullView", href: "/product/lost-mary-nera-fullview-70000-disposable-kit" },
+      { title: "Explore All Disposable Vapes", href: "/category/disposable-vapes" },
+    ],
   },
   {
     id: "b-4",
@@ -193,6 +246,21 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
     ],
+    faqs: [
+      {
+        q: "Which option is cheaper in the long run: Disposables or Pod Kits?",
+        a: "Refillable pod kits are approximately 40% cheaper over a 6-month period because bottled nicotine salts cost less per milliliter than pre-filled disposables.",
+      },
+      {
+        q: "Can I use any nicotine salt in a Caliburn pod device?",
+        a: "Yes, you can use any standard 50/50 VG/PG nicotine salt e-liquid (such as VGod, Nasty Juice, or Dinner Lady) in Uwell Caliburn refillable pods.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Uwell Caliburn A2 Pod System", href: "/product/uwell-caliburn-a2-pod-system" },
+      { title: "Nicotine Salts & E-Liquids", href: "/category/e-liquids" },
+      { title: "Replacement Pods & Coils", href: "/category/coils-pods" },
+    ],
   },
   {
     id: "b-5",
@@ -233,6 +301,16 @@ export const BLOG_POSTS: BlogPost[] = [
           "Vaping the same e-liquid flavor for weeks can temporarily desensitize your taste receptors, a common phenomenon known as 'vaper's tongue.' We recommend rotating between a fruity flavor and a crisp menthol every two weeks, and staying well-hydrated throughout the day.",
         ],
       },
+    ],
+    faqs: [
+      {
+        q: "What is the best all-day vape flavor for Delhi summers?",
+        a: "Miami Mint, Double Apple, and Watermelon Ice are the most popular summer flavors due to their crisp throat hit and refreshing finish.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Trending Disposable Vapes", href: "/category/disposable-vapes" },
+      { title: "Imported Nicotine Salts", href: "/category/e-liquids" },
     ],
   },
   {
@@ -275,6 +353,197 @@ export const BLOG_POSTS: BlogPost[] = [
           "When our delivery rider arrives at your doorstep, you have multiple convenient payment options:\n\n1. Cash: Exact cash or currency notes.\n2. Doorstep UPI: The rider presents a static QR code that you can scan instantly using Google Pay, PhonePe, Paytm, or BHIM.\n\nSimple, safe, and 100% hassle-free doorstep service anywhere in Delhi NCR.",
         ],
       },
+    ],
+    faqs: [
+      {
+        q: "Do I have to pay any advance deposit for Cash on Delivery?",
+        a: "No advance payment is required for standard delivery across Delhi. You pay only upon inspecting your delivery package.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Browse Delhi Catalog", href: "/products" },
+      { title: "Contact Delivery Desk", href: "/contact" },
+    ],
+  },
+  {
+    id: "b-7",
+    slug: "vape-shop-near-me-delhi-hyperlocal-delivery-guide",
+    title: "Vape Shop Near Me in Delhi: Locality-Wise Guide to 30-Min Fast Delivery",
+    subtitle: "Instant Doorstep Vape Dispatch Across Saket, Connaught Place, Dwarka, Rohini & GK",
+    excerpt: "Searching for 'Vape Shop Near Me' in Delhi? Find out how our decentralized Delhi dispatch hubs deliver authentic vapes and pods to your exact neighborhood within 30 to 45 minutes with Cash on Delivery.",
+    category: "Local SEO",
+    badge: "Near Me Guide",
+    date: "November 18, 2026",
+    readTime: "5 min read",
+    author: "Delhi Hyperlocal Operations",
+    image: "/banners/delhi-vape-banner-1.webp",
+    keywords: [
+      "Vape Shop Near Me Delhi",
+      "Vape Store Near Me Delhi",
+      "Vape Store Open Now Delhi",
+      "Vape Shop South Delhi Saket",
+      "Vape Delivery Connaught Place",
+      "Dwarka Vape Store Sector 12",
+      "Rohini Vape Shop Open Now",
+      "Vape Shop Hauz Khas",
+      "Vape Delivery Greater Kailash GK",
+    ],
+    content: [
+      {
+        heading: "Finding a Trusted Vape Store Open Now in Delhi",
+        paragraphs: [
+          "When you search for 'Vape Shop Near Me' in Delhi, most physical vape shops are either closed, located far away in crowded wholesale markets like Gaffar Market or Palika Bazaar, or stock unverified gray-market clones without authenticity warranties.",
+          "Vape Shop Delhi solves this problem through our smart hyperlocal dispatch network. Instead of driving across Delhi traffic, our strategically positioned courier hubs ensure that an authentic, factory-sealed device reaches your doorstep in 30 to 45 minutes—whether you are at your residence, office, or hotel.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Wise Courier Dispatch Stations Across Delhi",
+        paragraphs: [
+          "1. South Delhi Dispatch Hub (Saket & South Extension): Serving Hauz Khas, Greater Kailash (GK 1 & 2), Vasant Kunj, Defence Colony, Green Park, Malviya Nagar, and Gulmohar Park within 20 to 30 minutes.\n\n2. Central Delhi Hub (Connaught Place CP): Dispatches to Barakhamba Road, Mandi House, Karol Bagh, Paharganj, Patel Nagar, and Rajendra Nagar within 15 to 25 minutes.\n\n3. West Delhi Hub (Rajouri Garden & Dwarka): Serves all sectors of Dwarka (Sec 1 to 23), Janakpuri, Punjabi Bagh, Paschim Vihar, and Vikaspuri in 25 to 35 minutes.\n\n4. North Delhi Hub (Pitampura & Rohini): Covers Rohini Sectors 1–24, Model Town, Civil Lines, Shalimar Bagh, and DU North Campus in 30 to 40 minutes.\n\n5. Aerocity Priority Desk: Direct 20-minute delivery to all Worldmark towers and airport hotels (JW Marriott, Andaz, Pullman, Aloft).",
+        ],
+      },
+      {
+        heading: "Why Ordering Online from Our Dispatch Hubs Beats Local Kiosks",
+        paragraphs: [
+          "• Guaranteed Authenticity: Every box features the manufacturer's scratch-off QR verification code.\n• Temperature-Controlled Storage: Protects e-liquids and delicate lithium batteries from Delhi's extreme heat.\n• Cash on Delivery (COD) & UPI: Pay only after inspecting the sealed packaging at your doorstep.\n• Discreet Packaging: Plain, unmarked packaging guarantees total privacy with neighbors or family.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How do I find a vape store open now near me in Delhi?",
+        a: "Our online dispatch desk is active 7 days a week from 10:00 AM to 11:30 PM. Order directly on www.vapeshop-delhi.com or text our WhatsApp desk at +91 77422 43176 for instant rider dispatch.",
+      },
+      {
+        q: "What is the delivery charge for South Delhi or Connaught Place?",
+        a: "We offer nominal express courier charges with fast same-hour delivery and zero advance payment required on Cash on Delivery orders.",
+      },
+      {
+        q: "Can I order a vape delivered to my office or hotel in Aerocity?",
+        a: "Yes! Simply provide your office reception or hotel room details, and our courier will meet you at the gate or lobby discreetly.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Buy Vapes Online Delhi", href: "/products" },
+      { title: "Disposable Vapes Collection", href: "/category/disposable-vapes" },
+      { title: "Contact Local Delhi Hub", href: "/contact" },
+    ],
+  },
+  {
+    id: "b-8",
+    slug: "best-vapes-for-beginners-delhi-disposable-vs-pods",
+    title: "Best Vapes for Beginners in Delhi: 2026 Buying Guide & Price Comparison",
+    subtitle: "Choosing Your First Device: Nicotine Strengths, Top Starter Brands, and Honest Advice",
+    excerpt: "New to vaping in Delhi? Discover the best starter vapes, understand 20mg vs 50mg nicotine strengths, and learn whether to choose a pre-filled disposable or an easy refillable pod kit like Caliburn.",
+    category: "Beginner Guide",
+    badge: "Starter Guide",
+    date: "November 19, 2026",
+    readTime: "5 min read",
+    author: "Delhi Vaper Education Cell",
+    image: "/banners/delhi-vape-banner-2.webp",
+    keywords: [
+      "Best vape for beginners Delhi",
+      "Starter vape kit Delhi",
+      "Vape price in Delhi 2026",
+      "How to use disposable vape Delhi",
+      "Nicotine salts 20mg vs 50mg",
+      "Buy vape online Delhi COD",
+      "Uwell Caliburn beginner vape",
+    ],
+    content: [
+      {
+        heading: "Switching from Smoking: What Beginners Need to Know",
+        paragraphs: [
+          "For adults looking to switch away from combustible cigarettes in Delhi, entering a vape shop can feel overwhelming. With terms like 'mesh coil', 'nic salts', 'puff counts', and 'sub-ohm', choosing the right starter device is crucial to having a satisfying experience.",
+          "A beginner vape must be simple, leak-proof, draw-activated (no complicated buttons or wattage menus), and deliver an authentic cigarette-like throat hit (known as Mouth-to-Lung or MTL draw).",
+        ],
+      },
+      {
+        heading: "Top 3 Starter Vapes Recommended for Delhi Beginners",
+        paragraphs: [
+          "1. EBCREATE / Elf Bar BC5000: The gold standard for first-time vapers. Compact flagon design, velvety smooth airflow, and pure fruit flavors. Delivers roughly 5,000 puffs with hassle-free auto-draw.\n\n2. Yuoto Digi 15,000 Puffs: Perfect for tech-savvy beginners who want to see their exact battery and e-liquid percentage on a crisp digital display, eliminating any anxiety about running dry unexpectedly.\n\n3. Uwell Caliburn A2 / G3 Pod System: If you want a refillable starter kit with minimal upkeep, the Caliburn series offers easy top-fill pods and long coil lifespan, saving you substantial money month after month.",
+        ],
+      },
+      {
+        heading: "Choosing the Right Nicotine Strength: 20mg (2%) vs 50mg (5%)",
+        paragraphs: [
+          "• 20mg / 2% Nicotine: Best for light smokers (fewer than 10 cigarettes a day) or social smokers who prefer a smooth, gentle throat hit without high nicotine buzz.\n\n• 50mg / 5% Nicotine: Designed for moderate to heavy smokers (15+ cigarettes a day). Delivers immediate nicotine satisfaction in just 3 to 4 puffs, mimicking the quick sensation of traditional tobacco.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Which vape is easiest to use for a first-time user in Delhi?",
+        a: "Pre-filled disposable vapes like Elf Bar BC5000 or Yuoto Digi 15K are the easiest because they require zero setup, coil changes, or juice filling—just unpack, verify the scratch QR code, and inhale.",
+      },
+      {
+        q: "What is the average starter vape price in Delhi?",
+        a: "Genuine starter disposable vapes in Delhi range from ₹1,250 to ₹1,800, while refillable pod starter kits like the Caliburn A2 start around ₹1,999 with long-term cost benefits.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Elf Bar BC5000 US Edition", href: "/product/ebcreate-bc5000-disposable-pod-device-us-edition" },
+      { title: "Uwell Caliburn A2 Kit", href: "/product/uwell-caliburn-a2-pod-system" },
+      { title: "Beginner Pod Systems & Kits", href: "/category/pod-systems" },
+    ],
+  },
+  {
+    id: "b-9",
+    slug: "vape-delivery-noida-gurgaon-delhi-ncr-cod",
+    title: "Vape Delivery in Noida & Gurgaon: Same-Day Doorstep Courier Across Delhi NCR",
+    subtitle: "Fast Doorstep Courier to Noida Sectors 18-137, DLF Cyber City, Golf Course Road & Ghaziabad",
+    excerpt: "Living in Noida or Gurgaon? Learn how Vape Shop Delhi delivers 100% authentic disposable vapes, refillable pod kits, and nic salts across NCR with fast same-day courier and Cash on Delivery.",
+    category: "NCR Delivery",
+    badge: "NCR Coverage",
+    date: "November 20, 2026",
+    readTime: "4 min read",
+    author: "NCR Logistics Desk",
+    image: "/banners/delhi-vape-banner-3.webp",
+    keywords: [
+      "Vape Shop Noida",
+      "Vape Delivery Noida Sector 18",
+      "Vape Store Noida Sector 62",
+      "Vape Shop Gurgaon",
+      "Vape Delivery Gurgaon DLF Cyber City",
+      "Vape Delivery Golf Course Road Gurgaon",
+      "Vape Delivery Delhi NCR Cash on Delivery",
+      "Same Day Vape Delivery Noida",
+    ],
+    content: [
+      {
+        heading: "Fast Doorstep Vape Courier Extended Across Delhi NCR",
+        paragraphs: [
+          "While our headquarters and primary dispatch hubs are situated in New Delhi, thousands of working professionals and residents in Noida, Greater Noida, and Gurgaon need quick access to authentic, original vape devices.",
+          "Vape Shop Delhi bridges this gap with dedicated NCR express dispatch corridors connecting East Delhi to Noida, and South Delhi to Gurgaon's prime commercial and residential sectors.",
+        ],
+      },
+      {
+        heading: "Noida & Greater Noida Delivery Sectors",
+        paragraphs: [
+          "We offer fast express deliveries across:\n\n• Noida Sector 18 (Atta Market / Mall of India hub)\n• Noida Sectors 50, 62, 75, 76, 78 (Residential & IT belts)\n• Noida Expressway: Sectors 93, 128, 137, 142\n• Greater Noida: Pari Chowk, Knowledge Park, Gaur City / Greater Noida West (Same-day scheduled courier)\n• Indirapuram & Vaishali (Ghaziabad link): 35 to 50 minutes delivery.",
+        ],
+      },
+      {
+        heading: "Gurgaon (Gurugram) Delivery Sectors",
+        paragraphs: [
+          "From our South Delhi hubs, dedicated express riders connect to:\n\n• DLF Phase 1, 2, 3, 4 & 5\n• Cyber Hub & DLF Cyber City corporate towers\n• Golf Course Road & Golf Course Extension Road\n• Sohna Road & MG Road residential condominiums\n\nEvery order is packed in plain discreet cartons and dispatched with Cash on Delivery (COD) and doorstep UPI payment options.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How long does vape delivery take to Noida Sector 18 or Sector 62?",
+        a: "Delivery to central Noida sectors takes approximately 30 to 45 minutes via our direct Mayur Vihar-Noida expressway link.",
+      },
+      {
+        q: "Can I pay COD for vape delivery in Gurgaon or Noida?",
+        a: "Yes! Cash on Delivery (COD) and doorstep UPI via Google Pay, PhonePe, and Paytm are available across all serviced locations in Noida and Gurgaon.",
+      },
+    ],
+    relatedLinks: [
+      { title: "All Authentic Vapes", href: "/products" },
+      { title: "Disposable Vapes Collection", href: "/category/disposable-vapes" },
+      { title: "WhatsApp NCR Dispatch", href: "/contact" },
     ],
   },
 ];

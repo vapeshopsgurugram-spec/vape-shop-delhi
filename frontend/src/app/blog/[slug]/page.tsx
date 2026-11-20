@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ChevronRight, Calendar, Clock, User, ArrowRight, Zap, MessageCircle } from "lucide-react";
+import { ChevronRight, Calendar, Clock, User, ArrowRight, Zap, MessageCircle, HelpCircle, Layers } from "lucide-react";
 import { BLOG_POSTS, getBlogPostBySlug } from "@/data/blogs";
 import { STORE_INFO } from "@/data/products";
 
@@ -32,7 +32,7 @@ export async function generateMetadata({
     description: post.excerpt,
     keywords: post.keywords,
     alternates: {
-      canonical: `/blog/${post.slug}`,
+      canonical: `https://www.vapeshop-delhi.com/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
@@ -86,6 +86,23 @@ export default async function BlogPostPage({
     },
   };
 
+    // Optional FAQPage Schema.org JSON-LD
+  const faqSchema =
+    post.faqs && post.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faqs.map((item) => ({
+            "@type": "Question",
+            name: item.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.a,
+            },
+          })),
+        }
+      : null;
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -121,6 +138,12 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 py-1 overflow-x-auto whitespace-nowrap scrollbar-none">
@@ -198,6 +221,56 @@ export default async function BlogPostPage({
               ))}
             </section>
           ))}
+
+          {/* Article FAQs Section (SEO & Rich Snippets Booster) */}
+          {post.faqs && post.faqs.length > 0 && (
+            <div className="pt-6 border-t border-orange-100 space-y-4">
+              <div className="flex items-center gap-2">
+                <span className="p-1.5 rounded-lg bg-orange-100 text-orange-700">
+                  <HelpCircle className="w-4 h-4" />
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                  Frequently Asked Questions
+                </h3>
+              </div>
+              <div className="space-y-3">
+                {post.faqs.map((faq, fIdx) => (
+                  <div
+                    key={fIdx}
+                    className="p-4 rounded-2xl bg-orange-50/40 border border-orange-100/90 space-y-1.5"
+                  >
+                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">
+                      Q: {faq.q}
+                    </h4>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {faq.a}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Internal SEO Linking Pills */}
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <div className="pt-4 border-t border-orange-100 space-y-2">
+              <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
+                EXPLORE RELATED DELHI PRODUCTS:
+              </span>
+              <div className="flex flex-wrap gap-2">
+                {post.relatedLinks.map((link, lIdx) => (
+                  <Link
+                    key={lIdx}
+                    href={link.href}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white border border-orange-200 text-slate-700 hover:text-orange-700 hover:border-orange-400 text-xs font-semibold shadow-2xs transition-all"
+                  >
+                    <Layers className="w-3.5 h-3.5 text-orange-500" />
+                    <span>{link.title}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Call to Action Box inside Article */}
           <div className="mt-8 p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
