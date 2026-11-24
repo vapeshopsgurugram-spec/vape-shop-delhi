@@ -6,15 +6,13 @@ export const metadata: Metadata = {
   title: {
     absolute: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
   },
-  description:
-    "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
+  description: "Vape Shop Delhi – Buy 100% authentic disposable vapes, pod kits & nic salts. 30–60 min express doorstep delivery across Delhi NCR with Cash on Delivery (COD).",
   alternates: {
     canonical: "https://www.vapeshop-delhi.com",
   },
   openGraph: {
     title: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
-    description:
-      "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
+    description: "Vape Shop Delhi – Buy 100% authentic disposable vapes, pod kits & nic salts. 30–60 min express doorstep delivery across Delhi NCR with Cash on Delivery (COD).",
     url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop Delhi",
     locale: "en_IN",
@@ -23,8 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
-    description:
-      "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
+    description: "Vape Shop Delhi – Buy 100% authentic disposable vapes, pod kits & nic salts. 30–60 min express doorstep delivery across Delhi NCR with Cash on Delivery (COD).",
   },
 };
 import {
@@ -52,6 +49,7 @@ import { BLOG_POSTS } from "@/data/blogs";
 import ProductCard from "@/components/ProductCard";
 import HeroSlider from "@/components/HeroSlider";
 import DelhiLiveCommandHub from "@/components/DelhiLiveCommandHub";
+import CustomerReviews from "@/components/CustomerReviews";
 
 const DELIVERY_HUBS = [
   {
@@ -828,7 +826,12 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 10. Frequently Asked Questions (Delhi Specific with FAQPage Schema) */}
+        {/* 10. Verified Customer Reviews (Loved across Delhi NCR) */}
+        <section className="w-full">
+          <CustomerReviews />
+        </section>
+
+        {/* 11. Frequently Asked Questions (Delhi Specific with FAQPage Schema) */}
         <section className="max-w-5xl mx-auto space-y-6">
           <div className="text-center space-y-2">
             <span className="text-xs font-bold text-orange-600 uppercase tracking-wider flex items-center justify-center gap-1">

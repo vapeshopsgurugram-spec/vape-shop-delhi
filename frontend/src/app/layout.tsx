@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
     template: "%s | Vape Shop Delhi",
   },
-  description: "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
+  description: "Vape Shop Delhi – Buy 100% authentic disposable vapes, pod kits & nic salts. 30–60 min express doorstep delivery across Delhi NCR with Cash on Delivery (COD).",
     keywords: [
     "Vape Shop Delhi",
     "Vape Shop in Delhi",
@@ -53,8 +53,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Vape Shop Delhi | 60-90 Mins Express Delivery | Buy Genuine Vapes",
-    description:
-      "Buy 100% genuine disposable vapes, pod kits & nic salts in Delhi. 60–90 mins express doorstep delivery across Delhi NCR. Cash on Delivery (COD) available.",
+    description: "Vape Shop Delhi – Buy 100% authentic disposable vapes, pod kits & nic salts. 30–60 min express doorstep delivery across Delhi NCR with Cash on Delivery (COD).",
     url: "https://www.vapeshop-delhi.com",
     siteName: "Vape Shop Delhi",
     locale: "en_IN",
